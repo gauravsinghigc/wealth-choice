@@ -1,0 +1,38 @@
+[28-Sep-2023 10:00:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in C:\xampp\htdocs\apna-real-estate\include\app\Header.php:15
+Stack trace:
+#0 C:\xampp\htdocs\apna-real-estate\app\users\index.php(27): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\apna-real-estate\include\app\Header.php on line 15
+[28-Sep-2023 10:31:35 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\wealth-choice\handler\SystemController\ConfigController.php on line 127
+[28-Sep-2023 11:55:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserType" in C:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php:37
+Stack trace:
+#0 C:\xampp\htdocs\wealth-choice\app\leads\index.php(14): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 37
+[28-Sep-2023 12:27:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM DATE(check_out_date_time)='2023-09-28'' at line 1 in C:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\wealth-choice\app\attandance\index.php(25): CHECK('SELECT * FROM u...')
+#2 {main}
+  thrown in C:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[28-Sep-2023 12:32:20 Asia/Calcutta] PHP Warning:  Undefined variable $currentDate in C:\xampp\htdocs\wealth-choice\app\attandance\index.php on line 27
+[28-Sep-2023 13:12:04 Asia/Calcutta] PHP Warning:  Undefined variable $UserIdView in C:\xampp\htdocs\wealth-choice\app\attandance\index.php on line 31
+[28-Sep-2023 13:12:04 Asia/Calcutta] PHP Warning:  Undefined variable $UserIdView in C:\xampp\htdocs\wealth-choice\app\attandance\index.php on line 31
+[28-Sep-2023 13:29:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in C:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wealth-choice\app\users\details\index.php(31): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[28-Sep-2023 13:29:40 Asia/Calcutta] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:29:40 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\wealth-choice\include\dash): Failed to open stream: Permission denied in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:29:40 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\wealth-choice\app/../include/dash/' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:09 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\wealth-choice\include\dash): Failed to open stream: Permission denied in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:09 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\wealth-choice\app/../include/dash/' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:14 Asia/Calcutta] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:14 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\wealth-choice\include\dash): Failed to open stream: Permission denied in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:14 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\wealth-choice\app/../include/dash/' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 13:30:21 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\wealth-choice\auth\logout\index.php on line 4
+[28-Sep-2023 14:08:33 Asia/Calcutta] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 14:08:33 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\wealth-choice\include\dash): Failed to open stream: Permission denied in C:\xampp\htdocs\wealth-choice\app\index.php on line 93
+[28-Sep-2023 14:08:33 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\wealth-choice\app/../include/dash/' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wealth-choice\app\index.php on line 93

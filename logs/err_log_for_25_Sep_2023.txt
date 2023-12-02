@@ -1,0 +1,13 @@
+[25-Sep-2023 10:08:56 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in C:\xampp\htdocs\apna-real-estate\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:1094
+Stack trace:
+#0 C:\xampp\htdocs\apna-real-estate\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', NULL, '')
+#1 C:\xampp\htdocs\apna-real-estate\acm\SysModules\MAIL_Modules\Mail.php(36): PHPMailer\PHPMailer\PHPMailer->addAddress(NULL)
+#2 C:\xampp\htdocs\apna-real-estate\handler\ModuleController\AutoModuleRunner.php(80): SENDMAILS('OD Request is C...', 'Dear , ', NULL, 'your OD <b>#OD2...')
+#3 C:\xampp\htdocs\apna-real-estate\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\apna-real-estate\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 1094
+[25-Sep-2023 10:48:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in C:\xampp\htdocs\apna-real-estate\include\app\Header.php:15
+Stack trace:
+#0 C:\xampp\htdocs\apna-real-estate\app\users\index.php(27): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\apna-real-estate\include\app\Header.php on line 15

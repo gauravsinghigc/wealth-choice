@@ -1,0 +1,5 @@
+Sno,CompaignName,ProjectName,CampaignDate,Source,NoOfleads,PaidAmount,Status,CreatedFor
+1,Aashiyara_DiwakarSir,"Aashiyara II - Sec 37C","30 Apr, 2023",Facebook,653,70902,"(<?php echo EMP_CODE;?>- 11) Diwakar Dixit",Closed
+2,37CAashiyara_ABVB,"Aashiyara II - Sec 37C","15 Mar, 2023",Facebook,215,25211,"(<?php echo EMP_CODE;?>- 7) Aakash  Bhardwaj",Paused
+3,"37CAashiyara_Arvinder Mam","Aashiyara II - Sec 37C","16 Mar, 2023",Facebook,160,12129,"(<?php echo EMP_CODE;?>- 87) Arvinder kaur kataria",Paused
+,,,,,1028,108242,

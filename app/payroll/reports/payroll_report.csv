@@ -1,0 +1,51 @@
+Sno,UserName,PhoneNumber,EmailId,EMP-ID,BH,GROUP-NAME,EMP-TYPE,LOCATION,NetPresents,ValidPresents,Absants,Lates,HalfDays,Leaves,OD/Meetings,ShortLeaves,NetSalary/Support,NetAllowance,SoftwareCharges,OtherDeductions,Payable,PayrollMonth
+1," RAJNI CHAUHAN",9911143497,RAJNI956995@GMAIL.COM,<?php echo EMP_CODE;?>-253,"Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,3,3,0,0,0,0,0,0,Rs.19000,Rs.19000,Rs.250,Rs.0,Rs.19000,2023-09
+2,"Aakash  Bhardwaj",+918587972276,aakashsharma00123@gmail.com,<?php echo EMP_CODE;?>-07,"RNA (0)",BH,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+3,"Abhay Arora",+917011153950,abhayarora0151@gmail.com,<?php echo EMP_CODE;?>-264,"Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,2,0,0,2,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+4,ADIL,+917217627114,adilak242001@gmail.com,"RNA - 175","Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,4,0,0,4,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+5,"Amit  Ahuja",+918766369506,amitahuja2977@gmail.com,<?php echo EMP_CODE;?>-91,"RNA (0)",BH,"Business Modal",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+6,"Ankita  Jaiswar ",+917987002561,jaiswarankita17@gmail.com,<?php echo EMP_CODE;?>-268,"Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,,GURGAON,0,0,0,0,0,0,0,0,Rs.15000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+7,"Ashish  chaudhary ",+919917144756,aashishteotia44@gmail.com,<?php echo EMP_CODE;?>-267,"RNA (0)",SM,"RA DIRECT",NOIDA,2,1,0,0,0,0,1,0,Rs.15000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+8,"Ashish  Kumar",9582015202,ashishdixit060@gmail.com,"RNA - 219","Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,2,2,0,0,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+9,"Atul  Verma",+918076303542,Vatulk9@gmail.com,"RNA - 92","Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,2,1,0,1,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+10,"deepanjali Rathore",+919125736875,deeparathore7355@gmail.com,<?php echo EMP_CODE;?>-261,"Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,3,1,0,2,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+11,"Dhananjay Kumar Arya ",+919109771555,dhananjayarya1993@gmail.com,<?php echo EMP_CODE;?>-228,"Diwakar Dixit (<?php echo EMP_CODE;?>-145)",SM,"RA DIRECT",GURGAON,1,0,0,1,0,0,0,0,Rs.35000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+12,"DHARMENDRA KUMAR",+919667928207,kumardharmendra69379@gmail.com,<?php echo EMP_CODE;?>-258,"Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.25000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+13,"Diwakar Dixit",+917983973920,diwakardixit29@gmail.com,<?php echo EMP_CODE;?>-145,"RNA (0)",BH,"RA DIRECT",GURGAON,2,0,0,2,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+14,"Gyanendra  Singh",+918368208672,dhruvchaudhary124578@gmail.com,<?php echo EMP_CODE;?>-236,"Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,1,0,0,1,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+15,"Hritik Sharma",+919034115000,iamhritiksharma@gmail.com,<?php echo EMP_CODE;?>-115,"RNA (0)",Management,"RA DIRECT",GURGAON,3,3,0,0,0,0,0,0,Rs.42000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+16,"jay yadav propusers  ",+917838827824,pjyadav1227@gmail.com,<?php echo EMP_CODE;?>-205,"PROPUSER . (<?php echo EMP_CODE;?>-226)",SM,,GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+17,"karishma  singh",+919760342512,karishmasingh201993@gmail.com,<?php echo EMP_CODE;?>-247,"RNA (0)",Management,,GURGAON,1,0,0,1,0,0,0,0,Rs.35000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+18,"KASHISH SINGH",+919599347340,singhkashish2329@gmail.com,<?php echo EMP_CODE;?>-98,"Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,2,1,0,1,0,0,0,0,Rs.26000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+19,"KHUSHI SINGH93","+91 9311497152",KHUSHIRAJPUT6585@GMAIL.COM,"RNA 204 ","PROPUSER . (<?php echo EMP_CODE;?>-226)",SM,"RA DIRECT",NOIDA,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+20,"KIRAN  PANWAR ",+918130305199,K8130305199@GMAIL.COM,<?php echo EMP_CODE;?>-248,"Sachin Khandelwal (<?php echo EMP_CODE;?>-233)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.25000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+21,"KRISHNA KANT  VERMA ",+919690517233,krishna9760kant@gmail.com,<?php echo EMP_CODE;?>-259,"Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,3,2,0,1,0,0,0,0,Rs.24000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+22,Laxmi,9891966025,laxmisng9213@gmail.com,<?php echo EMP_CODE;?>-187,"Saurav Lohia (RNA - 222)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+23,"Niranjan  Mahato",+918167232684,niranjanmahatho04@gmail.com,<?php echo EMP_CODE;?>-269,"karishma  singh (<?php echo EMP_CODE;?>-247)",Management,,GURGAON,0,0,0,0,0,0,0,0,Rs.16000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+24,"PRAFUL  MISHRA",+918287582540,roofninfraacc@gmail.com,"RNA - 88","RNA (0)",Management,"RA DIRECT",NOIDA,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+25,"PRAFUL MISHRA",+919540190725,prafulmishra89@gmail.com,<?php echo EMP_CODE;?>-88,"karishma  singh (<?php echo EMP_CODE;?>-247)",Management,,GURGAON,0,0,0,0,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+26,"Radheshyam  Swami ","+91 9310957154",rajvarma9315082@gmail.com,<?php echo EMP_CODE;?>-240,"Diwakar Dixit (<?php echo EMP_CODE;?>-145)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.21000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+27,"Raja Singh",+917042560512,rs4001724@gmail.com,"RNA - 93","Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+28,"rajan tiwari",7042598933,tiwarichiku761@gmail.com,<?php echo EMP_CODE;?>-263,"Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,3,0,0,3,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+29,"Rajeev  kumar","+91 8384049804",rajivroy1712@gmail.com,<?php echo EMP_CODE;?>-76,"Diwakar Dixit (<?php echo EMP_CODE;?>-145)",SM,"RA DIRECT",GURGAON,1,1,0,0,0,0,0,0,Rs.25000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+30,"Ravi Kumar",+919625454982,ravidangi1983@gmail.com,<?php echo EMP_CODE;?>-96,"RNA (0)",BH,"Business Modal",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+31,RNA,8447572565,navix365@gmail.com,,"0 (0)",,,,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+32,"rohit  choudhary ",+919990052021,xyz@gmail.cm,<?php echo EMP_CODE;?>-251,"RNA (0)",BH,"Business Modal",NOIDA,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+33,"Rohit Kuradiya",+919953438006,rohit.kuradiya.rk@gmail.com,"RNA - 195","Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+34,"ROMIYO SONI",+917015602394,ROMIOSONI127021@GMAIL.COM,<?php echo EMP_CODE;?>-262,"Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,3,1,0,2,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+35,"Room N Roof Noida","+91 8810306278",harendramalik118@gmail.com,<?php echo EMP_CODE;?>-246,"RNA (0)",BH,,NOIDA,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+36,"Sachin Khandelwal","+919 971331667",sachinkhandelwal262@gmail.com,<?php echo EMP_CODE;?>-233,"RNA (0)",BH,"RA DIRECT",GURGAON,2,0,0,2,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+37,"Sameer  Malhotra",+918384009766,samymalhotra4525@gmail.com,"RNA - 225","Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.30000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+38,"SAMEER SAIFI",+919310488275,the.creativemind.023@gmail.com,<?php echo EMP_CODE;?>-60,"Vishal  Sharma (<?php echo EMP_CODE;?>-06)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+39,"Saurav Lohia",+919310059376,imsauravlohia@gmail.com,"RNA - 222","Vishal  Sharma (<?php echo EMP_CODE;?>-06)",SM,"RA DIRECT",GURGAON,1,0,0,1,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+40,"SEEMA VERMA",+91667330754,seemaverma6631@gmail.com,<?php echo EMP_CODE;?>-255,"Diwakar Dixit (<?php echo EMP_CODE;?>-145)",SM,"RA DIRECT",GURGAON,1,0,0,1,0,0,0,0,Rs.20000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+41,Shalinie,"+91 8219571262",shalinie006@gmail.com,<?php echo EMP_CODE;?>-244,"Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",BH,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+42,Shikha,+919289330078,crm@roofandassets.com,<?php echo EMP_CODE;?>-116,"RNA (0)",Management,"RA DIRECT",GURGAON,3,1,0,2,0,0,0,0,Rs.48000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+43,"Shivam Kumar",+919818546368,shivamkumar9818546368@gmail.com,<?php echo EMP_CODE;?>-138,"Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,1,1,0,0,0,0,0,0,Rs.15000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+44,"SHIVANI SHUKLA",+917054622529,Shivanishukla6229@gmail.com,<?php echo EMP_CODE;?>-249,"Amit  Ahuja (<?php echo EMP_CODE;?>-91)",SM,"RA DIRECT",GURGAON,1,0,0,1,0,0,0,0,Rs.16000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+45,"SM - Testing",+917974193252,soni.saurabh22@yahoo.com,"RNA - 153","Diwakar Dixit (<?php echo EMP_CODE;?>-145)",SM,"RA DIRECT",GURGAON,0,0,0,0,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+46,"Suman  Gupta ",+919654513562,sg0644345@gmail.com,<?php echo EMP_CODE;?>-254,"Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,"RA DIRECT",GURGAON,4,2,0,2,0,0,0,0,Rs.25000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+47,"varun lochav",+918700003405,varunlochav001@gmail.com,"RNA - 198","Ravi Kumar (<?php echo EMP_CODE;?>-96)",SM,,GURGAON,2,0,0,2,0,0,0,0,Rs.0,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+48,"vikas  sangwan ",+917895639032,vikkysangwan61@gmail.com,<?php echo EMP_CODE;?>-266,"RNA (0)",SM,"RA DIRECT",NOIDA,2,1,0,0,0,0,1,0,Rs.15000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+49,"Yuvraj  Singh",+917355247779,bhadauriyayuvrajsingh@gmail.com,"RNA -224","Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,3,1,0,2,0,0,0,0,Rs.35000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
+49,"Yuvraj  Singh",+917355247779,bhadauriyayuvrajsingh@gmail.com,"RNA -224","Aakash  Bhardwaj (<?php echo EMP_CODE;?>-07)",SM,"RA DIRECT",GURGAON,3,1,0,2,0,0,0,0,Rs.35000,Rs.0,Rs.0,Rs.0,Rs.0,2023-09
