@@ -35,7 +35,7 @@ function IfRequested($method = "GET", $name, $default, $sec = null)
 
  //securiyt or enct
  if ($sec == true) {
-  $RequestedValue = SECURE($RequestedValue, "e");
+  $RequestedValue = SECURE($RequestedValue, "d");
  } elseif ($sec == null) {
   $RequestedValue = $RequestedValue;
  } else {

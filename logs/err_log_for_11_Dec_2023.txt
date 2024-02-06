@@ -1,0 +1,40 @@
+[11-Dec-2023 10:14:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[11-Dec-2023 11:12:40 Asia/Calcutta] PHP Parse error:  syntax error, unexpected token ")" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 4
+[11-Dec-2023 11:12:42 Asia/Calcutta] PHP Parse error:  syntax error, unexpected token ")" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 4
+[11-Dec-2023 11:12:47 Asia/Calcutta] PHP Parse error:  syntax error, unexpected token ")" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 4
+[11-Dec-2023 14:50:46 Asia/Calcutta] PHP Warning:  Undefined array key "LeadSalutation" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 6
+[11-Dec-2023 14:50:46 Asia/Calcutta] PHP Warning:  Undefined variable $LeadMainId in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 29
+[11-Dec-2023 14:50:46 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialRequiredPeriod" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 37
+[11-Dec-2023 14:50:46 Asia/Calcutta] PHP Warning:  Undefined variable $LeadPersonCreatedAt in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 49
+[11-Dec-2023 14:58:01 Asia/Calcutta] PHP Warning:  Undefined variable $LeadMainId in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 29
+[11-Dec-2023 14:58:01 Asia/Calcutta] PHP Warning:  Undefined variable $LeadPersonCreatedAt in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 49
+[11-Dec-2023 15:12:49 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialAmities" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 9
+[11-Dec-2023 15:27:35 Asia/Calcutta] PHP Warning:  Undefined array key "location" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 11
+[11-Dec-2023 15:31:06 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialArea1" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 10
+[11-Dec-2023 15:33:19 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialArea1" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 10
+[11-Dec-2023 15:35:26 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialAreaUnit1" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 10
+[11-Dec-2023 15:35:26 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLocation1" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 11
+[11-Dec-2023 15:41:03 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 41
+[11-Dec-2023 16:27:59 Asia/Calcutta] PHP Warning:  Undefined array key "td" in D:\xampp\htdocs\wealth-choice\app\testing\testing.php on line 32
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhousePropertyType" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 102
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseAreaUnit" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 103
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseAreaType" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 103
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 104
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhousePurchasePurpose" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 105
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseLocation" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 106
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseMinimumPrice" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 107
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseMaximumPrice" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 108
+[11-Dec-2023 17:07:33 Asia/Calcutta] PHP Warning:  Undefined array key "FormhouseRequiredPeriod" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 109
+[11-Dec-2023 17:08:10 Asia/Calcutta] PHP Warning:  Undefined array key "KothiPropertyType" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 123
+[11-Dec-2023 17:25:17 Asia/Calcutta] PHP Warning:  Undefined variable $Amities in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 5
+[11-Dec-2023 17:25:33 Asia/Calcutta] PHP Warning:  Undefined variable $Amities in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 5
+[11-Dec-2023 17:25:33 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 6
+[11-Dec-2023 17:25:42 Asia/Calcutta] PHP Warning:  Undefined variable $Amities in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 5
+[11-Dec-2023 17:25:42 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 6
+[11-Dec-2023 17:28:04 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\app\leads\residentialLeadForm.php on line 7
+[11-Dec-2023 17:34:49 Asia/Calcutta] PHP Warning:  Undefined array key "PlotBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 36
+[11-Dec-2023 17:46:37 Asia/Calcutta] PHP Warning:  Undefined array key "PlotRequiredPeriod" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 41

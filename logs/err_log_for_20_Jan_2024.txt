@@ -1,0 +1,191 @@
+[20-Jan-2024 10:38:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[20-Jan-2024 10:58:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''data' where GROUP BY DataId' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM '...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM '...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(164): _DB_COMMAND_('SELECT * FROM '...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:01:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''data' where GROUP BY DataId' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM '...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM '...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(164): _DB_COMMAND_('SELECT * FROM '...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:20:44 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonFullname" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 11
+[20-Jan-2024 12:20:44 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 12
+[20-Jan-2024 12:20:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:21:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:24:33 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonFullname" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 11
+[20-Jan-2024 12:24:33 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 12
+[20-Jan-2024 12:24:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:32:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonFullname" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 11
+[20-Jan-2024 12:32:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 12
+[20-Jan-2024 12:32:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:32:27 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\app\data\sections\pageHeader.php on line 12
+[20-Jan-2024 12:32:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:33:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(150): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 176
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 178
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 176
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 178
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 176
+[20-Jan-2024 12:45:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 178
+[20-Jan-2024 12:45:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 176
+[20-Jan-2024 12:45:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 178
+[20-Jan-2024 12:45:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 176
+[20-Jan-2024 12:45:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 178
+[20-Jan-2024 14:51:06 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserType" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php:70
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\index.php(10): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 70
+[20-Jan-2024 15:00:36 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:04:39 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:21:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:28:33 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:28:35 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:28:47 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:28:51 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:29:42 Asia/Calcutta] PHP Warning:  Undefined array key "UpdateLeads" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 164
+[20-Jan-2024 15:31:17 Asia/Calcutta] PHP Warning:  Undefined array key "UpdateLeads" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 164
+[20-Jan-2024 15:33:22 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:35:38 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:35:40 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:35:44 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:35:48 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:36:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:36:40 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:36:41 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:36:43 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:36:44 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:36:46 Asia/Calcutta] PHP Warning:  Undefined variable $hidden in D:\xampp\htdocs\wealth-choice\include\forms\Add-Feedback.php on line 1
+[20-Jan-2024 15:44:50 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:45:33 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:47:09 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:47:17 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:48:15 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:48:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:48:58 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:05 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:11 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:15 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:30 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:40 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:50 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:49:54 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:50:00 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:50:08 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:50:14 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:50:17 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:50:44 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:51:03 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:52:27 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:52:30 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:53:34 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:53:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:54:10 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:54:13 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:54:18 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:54:25 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:59:51 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 15:59:56 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:01:41 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:02:24 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:05:11 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:07:31 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:13:59 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:14:03 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:14:23 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:31:56 Asia/Calcutta] PHP Warning:  Undefined array key "DataFollowMainId" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 281
+[20-Jan-2024 16:31:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'DataCallFollowUpMainId' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php:41
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php(41): mysqli_query(Object(mysqli), 'INSERT INTO dat...')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php(337): INSERT('data_lead_follo...', Array)
+#2 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php on line 41
+[20-Jan-2024 16:33:06 Asia/Calcutta] PHP Warning:  Undefined array key "DataFollowMainId" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 281
+[20-Jan-2024 16:33:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'DataCallFollowUpMainId' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php:41
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php(41): mysqli_query(Object(mysqli), 'INSERT INTO dat...')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php(337): INSERT('data_lead_follo...', Array)
+#2 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php on line 41
+[20-Jan-2024 16:42:50 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:43:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:43:04 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 16:43:13 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:23:52 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:24:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'DataCallFollowUpMainId' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php:41
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php(41): mysqli_query(Object(mysqli), 'INSERT INTO dat...')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php(337): INSERT('data_lead_follo...', Array)
+#2 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php on line 41
+[20-Jan-2024 17:26:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:26:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:26:22 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:28:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:28:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:28:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:28:58 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:31:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:31:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:31:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadFollowStatus in D:\xampp\htdocs\wealth-choice\app\data\details\index.php on line 411
+[20-Jan-2024 17:31:46 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:32:00 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:37:18 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:37:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadFollowUpDescriptions" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:38:30 Asia/Calcutta] PHP Warning:  Undefined array key "LeadFollowUpDescriptions" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:47:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:48:42 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:49:09 Asia/Calcutta] PHP Warning:  Undefined array key "DataFollowMainId" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 281
+[20-Jan-2024 17:50:03 Asia/Calcutta] PHP Warning:  Undefined array key "DataFollowMainId" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\DataController.php on line 281
+[20-Jan-2024 17:50:16 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:51:58 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[20-Jan-2024 17:52:06 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32

@@ -1,0 +1,228 @@
+[11-Jan-2024 10:14:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[11-Jan-2024 10:15:30 Asia/Calcutta] PHP Warning:  Undefined array key "KothiRequiredPeriod" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 130
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:10:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonCreatedBy in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 270
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 316
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 317
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 341
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonEmailId in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 349
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 365
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 366
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 374
+[11-Jan-2024 14:11:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSubStatus in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 375
+[11-Jan-2024 14:32:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. ON L.LeadsId=RL.LeadMainId WHERE  L.LeadPersonPhoneNumber like '%%' and L.L...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php(48): TOTAL('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(11): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php on line 11
+[11-Jan-2024 15:08:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'L.LeadsId' in 'order clause' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(192): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[11-Jan-2024 15:11:33 Asia/Calcutta] PHP Warning:  Undefined variable $LeadPersonFullname in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 38
+[11-Jan-2024 15:11:33 Asia/Calcutta] PHP Warning:  Undefined variable $LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 38
+[11-Jan-2024 15:11:33 Asia/Calcutta] PHP Warning:  Undefined variable $start in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 40
+[11-Jan-2024 15:11:33 Asia/Calcutta] PHP Warning:  Undefined variable $listcounts in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 40
+[11-Jan-2024 15:12:00 Asia/Calcutta] PHP Warning:  Undefined variable $start in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 44
+[11-Jan-2024 15:12:00 Asia/Calcutta] PHP Warning:  Undefined variable $listcounts in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 44
+[11-Jan-2024 15:25:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'L.eadPersonFullname' in 'where clause' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(192): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[11-Jan-2024 15:50:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND RL.LeadMaximumBudget <=  And L.LeadPersonFullname like '%Hayden%' and L.L...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[11-Jan-2024 15:52:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND RL.LeadMaximumBudget <=  And L.LeadPersonFullname like '%Hayden%' and L.L...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(196): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[11-Jan-2024 15:55:41 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317

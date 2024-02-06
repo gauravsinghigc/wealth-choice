@@ -46,12 +46,19 @@ $PageDescription = "Manage all customers";
               <div class="card card-primary">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-md-12">
-                      <h3 class="app-heading mb-1">Transfer Leads</h3>
+                    <div class="col-md-6">
+                      <a href="index.php" class="flex-s-b btn btn-sm btn-primary btn-block">
+                        <span class="fs-15">Move Leads</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="move_Data.php" class="flex-s-b btn btn-sm btn-default btn-block">
+                        <span class="fs-15">Move Data</span>
+                      </a>
                     </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row mt-4">
                     <div class="col-md-2">
                       <form action="" method="GET">
                         <input type="hidden" name="GetLeadsFrom" value="true">
@@ -60,10 +67,11 @@ $PageDescription = "Manage all customers";
                           <div class="form-group col-md-12 mb-2">
                             <label>Fetch Leads From</label>
                             <select class="form-control" name="From" onchange="form.submit()">
+                              <option value="">Select User</option>
                               <?php
                               $Users = _DB_COMMAND_("SELECT * FROM users ORDER BY UserFullName ASC", true);
                               foreach ($Users as $User) {
-                                if ($User->UserId == IfRequested("GET", "From", LOGIN_UserId, false)) {
+                                if ($User->UserId == IfRequested("GET", "From", "", false)) {
                                   $selected = "selected";
                                 } else {
                                   $selected = "";

@@ -1,0 +1,18 @@
+[09-Dec-2023 11:08:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:08 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $LateDays in D:\xampp\htdocs\wealth-choice\handler\ModuleController\PayrollController.php on line 419
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $AbsantsCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 443
+[09-Dec-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $LeavesCharges in D:\xampp\htdocs\wealth-choice\app\payroll\reports\index.php on line 447

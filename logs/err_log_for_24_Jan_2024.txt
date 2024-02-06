@@ -1,0 +1,83 @@
+[24-Jan-2024 10:05:33 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[24-Jan-2024 11:47:52 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:53:26 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:53:29 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:53:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:54:54 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:55:13 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 11:56:34 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:07:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:08:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:08:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$DataPersonPriorityLavel in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 255
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 402
+[24-Jan-2024 18:39:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 403

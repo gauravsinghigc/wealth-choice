@@ -13,9 +13,24 @@ function LOCATION($type, $msg, $url)
 }
 
 //responser for all controllers
-function RESPONSE($act, $msg, $msg2)
+// function RESPONSE($act, $msg, $msg2)
+// {
+//     global $access_url;
+//     if ($act == true) {
+//         LOCATION("success", "$msg", "$access_url");
+//     } else {
+//         LOCATION("danger", "$msg2", "$access_url");
+//     }
+// }
+function RESPONSE($act, $msg, $msg2, $url = null)
 {
     global $access_url;
+
+    if ($url == null) {
+        $access_url = $access_url;
+    } else {
+        $access_url = $url;
+    }
     if ($act == true) {
         LOCATION("success", "$msg", "$access_url");
     } else {

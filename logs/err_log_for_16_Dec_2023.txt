@@ -1,0 +1,81 @@
+[16-Dec-2023 11:50:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadType' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadType...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadType...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT LeadType...', 'LeadType')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(153): GET_DATA('agriculture_lea...', 'LeadType', 'LeadsId='6'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Dec-2023 12:04:05 Asia/Calcutta] PHP Warning:  Undefined variable $Amities in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 194
+[16-Dec-2023 12:04:05 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on null in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 194
+[16-Dec-2023 12:04:05 Asia/Calcutta] PHP Warning:  Undefined variable $Amities in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 194
+[16-Dec-2023 12:04:05 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on null in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 194
+[16-Dec-2023 12:23:53 Asia/Calcutta] PHP Warning:  Undefined variable $a in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 190
+[16-Dec-2023 12:23:53 Asia/Calcutta] PHP Warning:  Attempt to read property "Amities" on null in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 190
+[16-Dec-2023 12:23:53 Asia/Calcutta] PHP Warning:  Undefined variable $a in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 190
+[16-Dec-2023 12:23:53 Asia/Calcutta] PHP Warning:  Attempt to read property "Amities" on null in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 190
+[16-Dec-2023 13:05:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'PropertyType' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Property...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Property...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT Property...', 'PropertyType')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(250): GET_DATA('residential_lea...', 'PropertyType', 'LeadsId='4'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Dec-2023 13:06:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'PropertyType' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Property...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Property...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT Property...', 'PropertyType')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(250): GET_DATA('residential_lea...', 'PropertyType', 'LeadMainId='4'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[16-Dec-2023 16:08:00 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: in_array() expects at least 2 arguments, 1 given in D:\xampp\htdocs\wealth-choice\acm\SysModules\HTML_Modules\Form.php:99
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\HTML_Modules\Form.php(99): in_array(Array)
+#1 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(210): InputTypeCheckbox(Array, 'name', Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\HTML_Modules\Form.php on line 99
+[16-Dec-2023 16:55:47 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CONFIG_VALUES(), 0 passed in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 208 and at least 1 expected in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:16
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(208): CONFIG_VALUES()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 16
+[16-Dec-2023 17:00:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...')
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:00:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', '')
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:00:50 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', '')
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:00:50 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', '')
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:01:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:01:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:01:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php:40
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(209): CHECKBOX_CONFIG_VALUES('AGRICULTURE_AMI...', NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CONFIG_Modules\Configurations.php on line 40
+[16-Dec-2023 17:21:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Amities in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 319
+[16-Dec-2023 17:28:14 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 315
+[16-Dec-2023 17:40:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Amities in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 311

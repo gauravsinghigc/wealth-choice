@@ -1,0 +1,13 @@
+[28-Dec-2023 13:00:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[28-Dec-2023 13:07:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'RL.LeadMinimumBudget LIKE '%%' AND
+                              CL.LeadMini...' at line 9 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('\r\n             ...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(205): _DB_COMMAND_('\r\n             ...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12

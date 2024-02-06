@@ -311,8 +311,7 @@ function listingstartfrom($Return = null)
 //pagination footers
 function PaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
 {
-
-  $RecordLimit = CONFIG("DEFAULT_RECORD_LISTING");
+  $RecordLimit = DEFAULT_RECORD_LISTING;
 
   // Get current page number
   if (isset($_GET["view_page"])) {
@@ -320,27 +319,37 @@ function PaginationFooter(int $TotalItems = 0, $RedirectForAll = "index.php")
   } else {
     $page = 1;
   }
-
   $next_page = ($page + 1);
-  $previous_page = ($page - 1);
+  if ($page == 1) {
+    $previous_page = ($page);
+  } else {
+    $previous_page = ($page - 1);
+  }
   $NetPages = round(($TotalItems / $RecordLimit) + 0.5);
-  if ($NetPages == 1) {
-    $next_page = 1;
+  if (isset($_GET)) {
+    $Paramertre = "";
+    foreach ($_GET as $get => $value) {
+      if ($get != "view_page") {
+        $Paramertre .= "&" . $get . "=" . $value;
+      }
+    }
+  } else {
+    $Paramertre = "";
   }
 ?>
   <div class="col-md-12 flex-s-b mt-2 mb-1">
     <div class="">
-      <h6 class="mb-0" style="font-size:0.75rem;color:grey;">Page <b><?php echo IfRequested("GET", "view_page", $page, false); ?></b> from <b><?php echo $NetPages; ?> </b> pages <br>Total <b><?php echo $TotalItems; ?></b> entries</h6>
+      <h6 class="mb-0 text-dark" style="font-size:0.75rem;">Page <b class="text-danger fs-12"><?php echo IfRequested("GET", "view_page", $page, false); ?></b> from <b class="text-success fs-12"><?php echo $NetPages; ?> </b> pages <br>Total <b class="text-warning fs-12"><?php echo $TotalItems; ?></b> entries</h6>
     </div>
     <div class="flex">
       <span class="mr-1">
-        <a href="?view_page=<?php echo $previous_page; ?>" class="btn btn-sm btn-default"><i class="fa fa-angle-double-left"></i></a>
+        <a href="?view_page=<?php echo $previous_page; ?><?php echo $Paramertre; ?>" class="btn btn-sm btn-default"><i class="fa fa-angle-double-left"></i></a>
       </span>
       <form>
-        <input type="number" name="view_page" onchange="form.submit()" class="form-control  mb-0" min="1" max="<?php echo $NetPages; ?>" value="<?php echo IfRequested("GET", "view_page", 1, false); ?>">
+        <input type="number" name="view_page" onchange="form.submit()" class="form-control form-control-sm  mb-0" min="1" max="<?php echo $NetPages; ?>" value="<?php echo IfRequested("GET", "view_page", 1, false); ?>">
       </form>
       <span class="ml-1">
-        <a href="?view_page=<?php echo $next_page; ?>" class="btn btn-sm btn-default"><i class="fa fa-angle-double-right"></i></a>
+        <a href="?view_page=<?php echo $next_page; ?><?php echo $Paramertre; ?>" class="btn btn-sm btn-default"><i class="fa fa-angle-double-right"></i></a>
       </span>
       <?php if (isset($_GET['view_page'])) { ?>
         <span class="ml-1">

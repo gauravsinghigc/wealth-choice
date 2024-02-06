@@ -1,0 +1,23 @@
+[18-Jan-2024 10:10:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[18-Jan-2024 11:48:16 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonSubStatus" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 150
+[18-Jan-2024 11:48:16 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 151
+[18-Jan-2024 11:48:16 Asia/Calcutta] PHP Warning:  Undefined array key "DataPriorityLevel" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 152
+[18-Jan-2024 11:48:16 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonSource" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 153
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonSubStatus" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 150
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 151
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined array key "DataPriorityLevel" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 152
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonSource" in D:\xampp\htdocs\wealth-choice\app\leads\transfer\move_Data.php on line 153
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 3
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonFullname in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 8
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonPhoneNumber in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 9
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonStatus in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 13
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 16
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 20
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonSource in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 27
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPersonManagedBy in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 28
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadPriorityLevel in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 30
+[18-Jan-2024 11:55:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\include\common\send-lead-list.php on line 31

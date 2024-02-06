@@ -1,0 +1,15 @@
+[23-Dec-2023 09:46:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserType" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php:37
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\index.php(14): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 37
+[23-Dec-2023 09:48:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserType" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php:37
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\index.php(14): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 37
+[23-Dec-2023 10:27:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15

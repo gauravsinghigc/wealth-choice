@@ -1,0 +1,135 @@
+[22-Dec-2023 11:49:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[22-Dec-2023 12:40:31 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php:238
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php(238): implode(',', '147')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 238
+[22-Dec-2023 12:41:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php:238
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php(238): implode(',', '147')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 238
+[22-Dec-2023 12:46:41 Asia/Calcutta] PHP Warning:  Undefined array key "Amities" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:46:54 Asia/Calcutta] PHP Warning:  Undefined array key "Amities" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:47:15 Asia/Calcutta] PHP Warning:  Undefined array key "Amities" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:47:40 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:48:55 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:49:06 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:49:31 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities[]" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:51:39 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities[]" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:51:49 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities[]" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:51:58 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities[]" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:52:16 Asia/Calcutta] PHP Warning:  Undefined array key "AgricultureAmities[]" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 12:53:29 Asia/Calcutta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 236
+[22-Dec-2023 13:15:34 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 270
+[22-Dec-2023 13:16:06 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 270
+[22-Dec-2023 13:17:33 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 270
+[22-Dec-2023 15:27:24 Asia/Calcutta] PHP Warning:  Undefined array key "FlatBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 310
+[22-Dec-2023 15:27:24 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[22-Dec-2023 15:27:34 Asia/Calcutta] PHP Warning:  Undefined array key "FlatBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 310
+[22-Dec-2023 15:27:34 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[22-Dec-2023 15:28:02 Asia/Calcutta] PHP Warning:  Undefined array key "FlatBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 310
+[22-Dec-2023 15:28:02 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[22-Dec-2023 15:28:09 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[22-Dec-2023 15:28:19 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[22-Dec-2023 15:48:14 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:48:14 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:48:14 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:48:14 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:50:34 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:50:34 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:50:34 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:51:09 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:51:09 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:51:09 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:40 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:40 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:40 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:40 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:46 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:46 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:46 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:52:46 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:53:58 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:53:58 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:53:58 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:53:58 Asia/Calcutta] PHP Warning:  Undefined array key "PurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:56:03 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 15:58:01 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPurchasePurpose" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[22-Dec-2023 16:51:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonSubStatus" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 11
+[22-Dec-2023 16:51:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonStatus" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 12
+[22-Dec-2023 16:51:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonSource" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 15
+[22-Dec-2023 16:51:20 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 16
+[22-Dec-2023 16:51:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in where clause is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:52:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonSubStatus" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 11
+[22-Dec-2023 16:52:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonStatus" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 12
+[22-Dec-2023 16:52:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonSource" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 15
+[22-Dec-2023 16:52:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 16
+[22-Dec-2023 16:52:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in where clause is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:55:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in where clause is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:55:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in where clause is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:55:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in field list is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:57:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'residential.LeadMinimumBudget' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadPers...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT LeadPers...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT LeadPers...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 16:57:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'LeadMinimumBudget' in where clause is ambiguous in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(190): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 17:13:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND commercial_leads.LeadMinimumBudget LIKE '%%' AND AND agriculture_leads.La...' at line 2 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(208): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[22-Dec-2023 17:14:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND commercial_leads.LeadMinimumBudget LIKE '%%' AND AND agriculture_leads.La...' at line 2 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(208): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12

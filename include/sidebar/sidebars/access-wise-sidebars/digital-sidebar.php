@@ -10,6 +10,14 @@
       </a>
   </li>
   <li class="nav-item">
+      <a href="<?php echo APP_URL; ?>/data" class="nav-link" id="teams">
+          <i class=" nav-icon fas fa-star text-dark"></i>
+          <p>
+              All Data
+          </p>
+      </a>
+  </li>
+  <li class="nav-item">
       <a href="<?php echo APP_URL; ?>/teams/" class="nav-link" id="teams">
           <i class=" nav-icon fas fa-users text-dark"></i>
           <p>
@@ -23,7 +31,7 @@
       <a href="<?php echo APP_URL; ?>/leads/transfer/" class="nav-link" id="teams">
           <i class="nav-icon fa fa-exchange text-dark"></i>
           <p>
-              Move Leads
+              Move Leads & Data
           </p>
       </a>
   </li>
@@ -32,16 +40,17 @@
       <a href="<?php echo APP_URL; ?>/leads/uploads/" class="nav-link" id="teams">
           <i class="nav-icon fas fa-upload text-dark"></i>
           <p>
-              Upload Leads
+              Upload Leads & Data
           </p>
       </a>
   </li>
+
 
   <li class="nav-item">
       <a href="<?php echo APP_URL; ?>/leads/uploaded/" class="nav-link" id="teams">
           <i class=" nav-icon fas fa-list text-dark"></i>
           <p>
-              Uploaded Leads
+              Uploaded Leads & Data
           </p>
       </a>
   </li>

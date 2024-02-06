@@ -152,6 +152,112 @@ if (isset($_GET['ProjectName'])) {
                                                                 </span>
                                                             </p>
                                                         </div>
+
+                                                        <?php $LeadType = GET_DATA("leads", 'LeadType', "LeadsId='$REQ_LeadsId'"); ?>
+                                                        <div class="">
+                                                            <h6 class="app-heading "> <?php echo $LeadType; ?> Details</h6>
+                                                        </div>
+                                                        <!-- checking lead type -->
+                                                        <?php if ($LeadType == "RESIDENTIAL") { ?>
+                                                            <div class="col-md-12 shadow-sm bg-light flex-s-b">
+                                                                <span class="mt-2">
+                                                                    <span class="text-gray"> Property Type <br> <b class="text "><?php echo GET_DATA("residential_leads", 'LeadPropertyType', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Purpose <br> <b class="text"><?php echo GET_DATA("residential_leads", 'LeadPurchasePurpose', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+
+                                                                    <span class="text-gray m-b-1 "> Property Area <br> <b class="text"><?php echo GET_DATA("residential_leads", 'LeadPropertyArea', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> BHK <br> <b class="text"><?php echo GET_DATA("residential_leads", 'Lead_BHK', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Period <br> <b class="text"><?php echo GET_DATA("residential_leads", 'LeadRequiredPeriod', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                </span>
+                                                                <span class="text-right mt-2">
+                                                                    <span class="text-gray mb-1">Budget Range <br> <b class="text-success fs-20"><i class="fa-solid fa-indian-rupee-sign"></i> <?php echo GET_DATA("residential_leads", 'LeadMinimumBudget', "LeadMainId='$REQ_LeadsId'"); ?></b> - <b class="text-success fs-20"><i class="fa-solid fa-indian-rupee-sign"></i> <?php echo GET_DATA("residential_leads", 'LeadMaximumBudget', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Loaction <br> <b class="text"><?php echo GET_DATA("residential_leads", 'LeadLocation', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Amities <br>
+                                                                        <?php
+                                                                        $Amity = _DB_COMMAND_("SELECT * FROM residential_leads WHERE LeadMainId='$REQ_LeadsId'", true);
+                                                                        if ($Amity != null) {
+                                                                            foreach ($Amity as $a) {
+                                                                                // Decode HTML entities if necessary
+                                                                                $decodedAmities = htmlspecialchars_decode($a->LeadAmities);
+                                                                                $AmityArray = explode(',', $decodedAmities);
+                                                                                // Loop through the array and echo each element
+                                                                                foreach ($AmityArray as $value) {
+                                                                                    echo '<span class="btn btn-xs m-1 bold btn-default">' . GET_DATA("config_values", 'ConfigValueDetails', "ConfigValueId='$value'") . ' </span> ';
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            NoData("No Amity Found!!");
+                                                                        }
+                                                                        ?>
+                                                                    </span><br><br>
+
+                                                                </span>
+                                                            </div>
+                                                        <?php  } elseif ($LeadType == "COMMERCIAL") { ?>
+                                                            <div class="col-md-12 shadow-sm bg-light flex-s-b">
+                                                                <span class="mt-2">
+                                                                    <span class="text-gray m-b-1 "> Property Area <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'LeadPropertyArea', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Purpose <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'PurchasePurpose', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Cabin <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'NumberOfCabin', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Siting <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'NumberOfSiting', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Rent <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'RentDetails', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Furnished <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'FurnishedType', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Period <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'RequiredPeriod', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                </span>
+                                                                <span class="text-right mt-2">
+                                                                    <span class="text-gray mb-1">Budget Range <br> <b class="text-success fs-20"><i class="fa-solid fa-indian-rupee-sign"></i> <?php echo GET_DATA("commercial_leads", 'LeadMinimumBudget', "LeadMainId='$REQ_LeadsId'"); ?></b> - <b class="text-success fs-20"><i class="fa-solid fa-indian-rupee-sign"></i> <?php echo GET_DATA("commercial_leads", 'LeadMaximumBudget', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Loaction <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'Location', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Amities <br>
+                                                                        <?php
+                                                                        $Amity = _DB_COMMAND_("SELECT * FROM commercial_leads WHERE LeadMainId='$REQ_LeadsId'", true);
+                                                                        if ($Amity != null) {
+                                                                            foreach ($Amity as $a) {
+
+                                                                                $decodedAmities = htmlspecialchars_decode($a->Amities);
+                                                                                $AmityArray = explode(',', $decodedAmities);
+                                                                                foreach ($AmityArray as $value) {
+                                                                                    echo '<span class="btn btn-xs m-1 bold btn-default">' . GET_DATA("config_values", 'ConfigValueDetails', "ConfigValueId='$value'") . ' </span> ';
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            NoData("No Amity Found!!");
+                                                                        }
+                                                                        ?>
+                                                                    </span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Reception <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'Reception', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> NightShift <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'NightShift', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Panetry <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'Panetry', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Washroom <br> <b class="text"><?php echo GET_DATA("commercial_leads", 'Washroom', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                </span>
+                                                            </div>
+                                                        <?php  } elseif ($LeadType == "AGRICULTURE") { ?>
+                                                            <div class="col-md-12 shadow-sm bg-light flex-s-b">
+                                                                <span class="mt-2">
+                                                                    <span class="text-gray m-b-1 "> Land Area <br> <b class="text"><?php echo GET_DATA("agriculture_leads", 'LeadPropertyArea', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1 "> Purpose <br> <b class="text"><?php echo GET_DATA("agriculture_leads", 'PurchasePurpose', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray m-b-1"> Land Type <br> <b class="text"><?php echo GET_DATA("agriculture_leads", 'LandType', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                </span>
+                                                                <span class="text-right mt-2">
+                                                                    <span class="text-gray mb-1">Land Price <br> <b class="text-success fs-20"><i class="fa-solid fa-indian-rupee-sign"></i> <?php echo GET_DATA("agriculture_leads", 'LandPrice', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Loaction <br> <b class="text"><?php echo GET_DATA("agriculture_leads", 'Location', "LeadMainId='$REQ_LeadsId'"); ?></b></span><br><br>
+                                                                    <span class="text-gray mb-1">Amities <br>
+                                                                        <?php
+                                                                        $Amity = _DB_COMMAND_("SELECT * FROM agriculture_leads WHERE LeadMainId='$REQ_LeadsId'", true);
+                                                                        if ($Amity != null) {
+                                                                            foreach ($Amity as $a) {
+                                                                                $decodedAmities = htmlspecialchars_decode($a->Amities);
+                                                                                $AmityArray = explode(',', $decodedAmities);
+                                                                                foreach ($AmityArray as $value) {
+                                                                                    echo '<span class="btn btn-xs m-1 bold btn-default">' . GET_DATA("config_values", 'ConfigValueDetails', "ConfigValueId='$value'") . ' </span> ';
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            NoData("No Amity Found!!");
+                                                                        }
+                                                                        ?>
+                                                                    </span><br><br>
+                                                                   </span>
+                                                            </div>
+                                                        <?php  } ?>
                                                         <hr>
                                                         <h5 class="app-heading">Project Details</h5>
                                                         <form class="row">

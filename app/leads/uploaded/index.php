@@ -54,14 +54,34 @@ if (isset($_GET['view'])) {
               <div class="card card-primary">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-md-12">
+                    <!-- <div class="col-md-6">
                       <h4 class="app-heading"><?php echo $PageName; ?>
                         <a href="transfer.php" class='btn btn-sm btn-default pull-right'><i class='fa fa-exchange'></i> Transfer Fresh Leads</a>
                       </h4>
                     </div>
+                    <div class="col-md-6">
+                      <h4 class="app-heading">All Uploaded Data
+                        <a href="transfer.php" class='btn btn-sm btn-default pull-right'><i class='fa fa-exchange'></i> Transfer Fresh Leads</a>
+                      </h4>
+                    </div> -->
+                    <div class="col-md-6">
+                      <a href="index.php" class="flex-s-b btn btn-sm btn-primary btn-block">
+                        <span class="fs-15"><?php echo $PageName; ?></span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="uploaded_Data.php" class="flex-s-b btn btn-sm btn-default btn-block">
+                        <span class="fs-15">All Uploaded Data</span>
+                      </a>
+                    </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row mt-4">
+                    <div class="col-md-12">
+                      <h4 class="app-heading fs-15"><?php echo $PageName; ?>
+                        <a href="transfer.php" class='btn btn-sm btn-danger pull-right'><i class='fa fa-exchange'></i> Transfer Fresh Leads</a>
+                      </h4>
+                    </div>
                     <div class="col-md-10">
                       <div class="btn-group btn-group-md">
                         <?php if (isset($_GET['UploadedOn'])) {

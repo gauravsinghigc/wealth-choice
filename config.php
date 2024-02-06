@@ -39,7 +39,8 @@ define("LOCAL_HOST", array(
     "192.168.1.83",
     "192.168.1.18",
     "192.168.1.19",
-    "192.168.1.8"
+    "192.168.1.8",
+    "192.168.1.26"
 ));
 
 //filter domain from local or live server

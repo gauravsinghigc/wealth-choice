@@ -1,0 +1,31 @@
+[13-Dec-2023 10:10:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[13-Dec-2023 10:45:29 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\app\leads\details\index.php on line 176
+[13-Dec-2023 11:45:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadLocation' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadLoca...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadLoca...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT LeadLoca...', 'LeadLocation')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\index.php(207): GET_DATA('commercial_lead...', 'LeadLocation', 'LeadMainId='2'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[13-Dec-2023 11:46:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadLocation' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT LeadLoca...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT LeadLoca...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT LeadLoca...', 'LeadLocation')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\index.php(207): GET_DATA('commercial_lead...', 'LeadLocation', 'LeadMainId='2'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[13-Dec-2023 11:46:31 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadAmities in D:\xampp\htdocs\wealth-choice\app\leads\details\index.php on line 214
+[13-Dec-2023 11:48:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'PurchasePurpose' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT Purchase...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT Purchase...')
+#2 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(65): FETCH('SELECT Purchase...', 'PurchasePurpose')
+#3 D:\xampp\htdocs\wealth-choice\app\leads\details\index.php(165): GET_DATA('residential_lea...', 'PurchasePurpose', 'LeadMainId='4'')
+#4 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12

@@ -1,0 +1,24 @@
+[19-Dec-2023 10:11:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[19-Dec-2023 10:19:18 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InputTypeRadio(), 1 passed in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 424 and exactly 3 expected in D:\xampp\htdocs\wealth-choice\acm\SysModules\HTML_Modules\Form.php:77
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php(424): InputTypeRadio(Array)
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\HTML_Modules\Form.php on line 77
+[19-Dec-2023 10:37:22 Asia/Calcutta] PHP Warning:  Undefined array key "Location	" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[19-Dec-2023 10:37:35 Asia/Calcutta] PHP Warning:  Undefined array key "Location	" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[19-Dec-2023 14:53:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserType" in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php:37
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\index.php(14): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 37
+[19-Dec-2023 14:56:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadMianId' in 'field list' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php:41
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php(41): mysqli_query(Object(mysqli), 'INSERT INTO Com...')
+#1 D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php(206): INSERT('Commercial_lead...', Array)
+#2 D:\xampp\htdocs\wealth-choice\handler\ModuleHandler.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Insert.php on line 41

@@ -46,12 +46,18 @@ $PageDescription = "Manage all customers";
               <div class="card card-primary">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-md-12">
-                      <h3 class="app-heading">Upload Bulk Leads</h3>
+                    <div class="col-md-6">
+                      <a href="index.php" class="flex-s-b btn btn-sm btn-primary btn-block">
+                        <span class="fs-15">Upload Bulk Leads</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="upload_Data.php" class="flex-s-b btn btn-sm btn-default btn-block">
+                        <span class="fs-15">Upload Bulk Data</span>
+                      </a>
                     </div>
                   </div>
-
-                  <div class="row">
+                  <div class="row mt-4">
                     <div class="col-md-8">
                       <h5 class="app-sub-heading">Upload Leads</h5>
                       <form class="row" action="<?php echo CONTROLLER; ?>" enctype="multipart/form-data" method="POST">
@@ -94,7 +100,8 @@ $PageDescription = "Manage all customers";
                         <div class="form-group col-md-6">
                           <label>Upload Type</label>
                           <select name="LeadType" class="form-control" required>
-                            <?php echo InputOptions(['DATA', 'LEAD', 'Select Upload Type'], 'Select Upload Type'); ?>
+                            <option value="">Select Lead Type</option>
+                            <?php echo InputOptions(['LEAD', 'RESIDENTIAL', 'COMMERSIAL', 'AGRICULTURE']); ?>
                           </select>
                         </div>
                         <div class="col-md-12">

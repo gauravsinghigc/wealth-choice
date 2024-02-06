@@ -73,6 +73,22 @@ function InputOptionsWithKey($data, $default = null)
         return $results;
 }
 
+//for radio inputs
+function InputTypeRadio($data, $default = null, $name)
+{
+        $RegRadio = $data;
+        $Count = 0;
+        $results = "";
+        foreach ($RegRadio as $key => $radio) {
+                if ($radio == $default) {
+                        $checked = 'checked="checked"';
+                } else {
+                        $checked = "";
+                }
+                $results .= '<label class="btn btn-default m-1"> <input type="radio"  ' . $checked . ' value="' . $key . '" name="' . $name . '"> ' . $radio . '</label>';
+        }
+        return $results;
+}
 //activation & deactivation options
 function SelectStatus($data)
 {

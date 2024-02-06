@@ -1,0 +1,212 @@
+[27-Jan-2024 10:52:28 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[27-Jan-2024 12:29:33 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in D:\xampp\htdocs\wealth-choice\app\data\index.php:229
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\data\index.php(229): date()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 229
+[27-Jan-2024 12:29:36 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in D:\xampp\htdocs\wealth-choice\app\data\index.php:229
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\data\index.php(229): date()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 229
+[27-Jan-2024 12:59:12 Asia/Calcutta] PHP Warning:  Undefined array key "Lead_Sql" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 5
+[27-Jan-2024 12:59:12 Asia/Calcutta] PHP Warning:  Undefined array key "TotalLeads" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 6
+[27-Jan-2024 12:59:12 Asia/Calcutta] PHP Warning:  Undefined array key "ListCount" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 7
+[27-Jan-2024 12:59:12 Asia/Calcutta] PHP Warning:  Undefined array key "view_page" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 8
+[27-Jan-2024 12:59:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '  LIMIT 0, ')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('  LIMIT 0, ')
+#2 D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php(13): _DB_COMMAND_('  LIMIT 0, ', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 13:00:47 Asia/Calcutta] PHP Warning:  Undefined array key "Lead_Sql" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 5
+[27-Jan-2024 13:00:47 Asia/Calcutta] PHP Warning:  Undefined array key "TotalLeads" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 6
+[27-Jan-2024 13:00:47 Asia/Calcutta] PHP Warning:  Undefined array key "ListCount" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 7
+[27-Jan-2024 13:00:47 Asia/Calcutta] PHP Warning:  Undefined array key "view_page" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 8
+[27-Jan-2024 13:00:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '  LIMIT 0, ')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('  LIMIT 0, ')
+#2 D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php(13): _DB_COMMAND_('  LIMIT 0, ', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 13:01:27 Asia/Calcutta] PHP Warning:  Undefined array key "Lead_Sql" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 5
+[27-Jan-2024 13:01:27 Asia/Calcutta] PHP Warning:  Undefined array key "TotalLeads" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 6
+[27-Jan-2024 13:01:27 Asia/Calcutta] PHP Warning:  Undefined array key "ListCount" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 7
+[27-Jan-2024 13:01:27 Asia/Calcutta] PHP Warning:  Undefined array key "view_page" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 8
+[27-Jan-2024 13:01:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '  LIMIT 0, ')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('  LIMIT 0, ')
+#2 D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php(13): _DB_COMMAND_('  LIMIT 0, ', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 13:05:39 Asia/Calcutta] PHP Warning:  Undefined array key "Lead_Sql" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 5
+[27-Jan-2024 13:05:39 Asia/Calcutta] PHP Warning:  Undefined array key "TotalLeads" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 6
+[27-Jan-2024 13:05:39 Asia/Calcutta] PHP Warning:  Undefined array key "ListCount" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 7
+[27-Jan-2024 13:05:39 Asia/Calcutta] PHP Warning:  Undefined array key "view_page" in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 8
+[27-Jan-2024 13:05:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '  LIMIT 0, ')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('  LIMIT 0, ')
+#2 D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php(13): _DB_COMMAND_('  LIMIT 0, ', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:07:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadsId in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 140
+[27-Jan-2024 13:08:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$LeadSalutations in D:\xampp\htdocs\wealth-choice\app\data\FetchAllData.php on line 141
+[27-Jan-2024 13:11:38 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Jan-2024 17:37:01 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:37:01 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:37:42 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:37:42 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:38:53 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:38:53 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:38:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:38:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:39:34 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:39:34 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:39:58 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:39:58 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:40:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:40:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:40:14 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:40:14 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:41:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:41:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:47:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadPersonManagedBy' in 'group statement' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(170): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 17:48:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'LeadPersonManagedBy' in 'group statement' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM d...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM d...')
+#2 D:\xampp\htdocs\wealth-choice\app\data\index.php(170): _DB_COMMAND_('SELECT * FROM d...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Jan-2024 17:49:52 Asia/Calcutta] PHP Warning:  Undefined variable $FetchLeadsStatus in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 172
+[27-Jan-2024 17:49:52 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 172
+[27-Jan-2024 17:53:27 Asia/Calcutta] PHP Warning:  Undefined variable $FetchLeadsStatus in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 172
+[27-Jan-2024 17:53:27 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 172
+[27-Jan-2024 17:55:26 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:55:26 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:56:04 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:56:04 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 17:59:35 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 17:59:35 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:13 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:38 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:04:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:02 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:05:29 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 170
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:31 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:49 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:08:59 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 147
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataPersonStatus" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 153
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171
+[27-Jan-2024 18:10:21 Asia/Calcutta] PHP Warning:  Undefined array key "DataManagedBy" in D:\xampp\htdocs\wealth-choice\app\data\index.php on line 171

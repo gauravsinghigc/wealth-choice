@@ -1,0 +1,11 @@
+[13-Jan-2024 10:27:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $Purpose in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 342
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $Budget in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 350
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $RequiredPeriod in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 364
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $Purpose in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 342
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $Budget in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 350
+[13-Jan-2024 13:56:08 Asia/Calcutta] PHP Warning:  Undefined variable $RequiredPeriod in D:\xampp\htdocs\wealth-choice\app\leads\index.php on line 364

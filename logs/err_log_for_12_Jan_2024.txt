@@ -1,0 +1,133 @@
+[12-Jan-2024 10:38:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[12-Jan-2024 10:59:09 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[12-Jan-2024 14:19:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR  GROUP BY L.LeadsId ORDER by L.LeadsId DESC limit 0, 5' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(194): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Jan-2024 14:20:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR  AND L.LeadPersonFullname like '%namlanga%' and L.LeadPersonPhoneNumber li...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(194): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Jan-2024 14:21:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR  AND L.LeadPersonFullname like '%Hayden%' and L.LeadPersonPhoneNumber like...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(194): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Jan-2024 14:29:40 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 270
+[12-Jan-2024 14:33:26 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 468
+[12-Jan-2024 14:33:35 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 270
+[12-Jan-2024 14:33:36 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\app\leads\details\edit-deals.php on line 468
+[12-Jan-2024 14:40:53 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 228
+[12-Jan-2024 14:44:40 Asia/Calcutta] PHP Warning:  Undefined array key "FlatBHK" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 310
+[12-Jan-2024 14:44:40 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 317
+[12-Jan-2024 14:48:59 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 193
+[12-Jan-2024 14:48:59 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 194
+[12-Jan-2024 14:48:59 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 195
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 162
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 203
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 208
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialLeadRequirementDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 14:57:50 Asia/Calcutta] PHP Warning:  Undefined variable $save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 231
+[12-Jan-2024 14:58:22 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPersonPhoneNumber" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 162
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 203
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 208
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialLeadRequirementDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 14:59:44 Asia/Calcutta] PHP Warning:  Undefined variable $save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 231
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 203
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 208
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialLeadRequirementDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 221
+[12-Jan-2024 15:01:29 Asia/Calcutta] PHP Warning:  Undefined variable $save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 231
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 206
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 210
+[12-Jan-2024 15:05:25 Asia/Calcutta] PHP Warning:  Undefined variable $save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 234
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 206
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 210
+[12-Jan-2024 15:05:54 Asia/Calcutta] PHP Warning:  Undefined variable $save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 234
+[12-Jan-2024 15:08:18 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:08:18 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:08:18 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 206
+[12-Jan-2024 15:08:18 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:08:18 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 210
+[12-Jan-2024 15:13:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 246
+[12-Jan-2024 15:13:09 Asia/Calcutta] PHP Warning:  Undefined array key "AgriculturePurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 275
+[12-Jan-2024 15:15:12 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 246
+[12-Jan-2024 15:15:12 Asia/Calcutta] PHP Warning:  Undefined array key "AgriculturePurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 275
+[12-Jan-2024 15:21:49 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 246
+[12-Jan-2024 15:21:49 Asia/Calcutta] PHP Warning:  Undefined array key "AgriculturePurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 275
+[12-Jan-2024 15:27:26 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 246
+[12-Jan-2024 15:27:54 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 246
+[12-Jan-2024 15:27:54 Asia/Calcutta] PHP Warning:  Undefined array key "AgriculturePurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 275
+[12-Jan-2024 15:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 206
+[12-Jan-2024 15:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:30:09 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 210
+[12-Jan-2024 15:42:41 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialReception" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 204
+[12-Jan-2024 15:42:41 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialNightShift" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 205
+[12-Jan-2024 15:42:41 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPanetry" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 206
+[12-Jan-2024 15:42:41 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialWashroom" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 209
+[12-Jan-2024 15:42:41 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialPurchaseDate" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 210
+[12-Jan-2024 15:46:49 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 248
+[12-Jan-2024 16:13:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'AG.LandPrice' in 'where clause' in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(194): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Jan-2024 16:15:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') OR  (CL.LeadMinimumBudget >=400 AND CL.LeadMaximumBudget <=) OR (AG.LandPri...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM l...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(194): _DB_COMMAND_('SELECT * FROM l...', true)
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 12
+[12-Jan-2024 16:27:20 Asia/Calcutta] PHP Warning:  Undefined variable $Condition_residential in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 42
+[12-Jan-2024 16:27:20 Asia/Calcutta] PHP Warning:  Undefined variable $Condition_commercial in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 42
+[12-Jan-2024 16:27:20 Asia/Calcutta] PHP Warning:  Undefined variable $Condition_agriculture in D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php on line 42
+[12-Jan-2024 17:03:23 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialCustomerAddress" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\NewLeadController.php on line 249
+[12-Jan-2024 17:07:21 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 269
+[12-Jan-2024 17:07:49 Asia/Calcutta] PHP Warning:  Undefined array key "CommercialRentDetails" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 269
+[12-Jan-2024 17:10:08 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 316
+[12-Jan-2024 17:10:28 Asia/Calcutta] PHP Warning:  Undefined array key "ResidentialLeadPersonManagedBy" in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 316
+[12-Jan-2024 17:12:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'L.LeadPersonFullname like '%%' and L.LeadPersonPhoneNumber like '%%' GROUP BY...' at line 1 in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php:11
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php(11): mysqli_query(Object(mysqli), 'SELECT L.LeadsI...')
+#1 D:\xampp\htdocs\wealth-choice\app\leads\sections\pageHeader.php(62): TOTAL('SELECT L.LeadsI...')
+#2 D:\xampp\htdocs\wealth-choice\app\leads\index.php(10): include('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\DBOperations.php on line 11

@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
 html,
 body,
 section,
@@ -24,7 +23,6 @@ ol {
   color: black !important;
   font-family: "Nunito", sans-serif !important;
 }
-
 html,
 body,
 section,
@@ -1168,4 +1166,52 @@ label {
 .bg-primary {
   background-color: black !important;
   color: white !important;
+}
+.new-bg-light{
+  background-color: rgb(170, 218, 237) !important;
+}
+.new-outline{
+  outline: 1px solid black !important;
+}
+.new-lead-outline{
+  outline: 1px solid rgb(13, 119, 41) !important;
+}
+.cursor-default{
+  cursor: default !important;
+}
+.cursor-default:hover{
+    background-color: white !important;
+}
+.custom-input{
+border: none !important;
+
+  outline: none!important;
+  padding: .3rem !important;
+}
+.custom-option{
+ border: none !important;
+ outline: none !important;
+ padding: .3rem !important;
+
+}
+.new-hr{
+  border: 1px solid  rgba(16, 124, 226, 0.4) !important;
+  margin-bottom: .3rem !important;
+}
+
+.popup {
+  visibility: hidden !important;
+  position: absolute !important;
+  background-color: #fff !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+  width: 20%;
+  border-radius: 5px;
+  padding: 10px !important;
+  top: 10% !important;
+  right: 6%  !important;
+  transition: visibility 0.2s;
+  z-index: 9999 !important;
+}
+.popup-btn:hover +.popup {
+  visibility: visible  !important;
 }

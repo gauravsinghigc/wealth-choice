@@ -1,0 +1,37 @@
+[25-Jan-2024 15:09:26 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\leads\add.php(55): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 15:49:13 Asia/Calcutta] PHP Warning:  Undefined variable $projectId in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 244
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Undefined variable $lead in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:46:57 Asia/Calcutta] PHP Warning:  Attempt to read property "DataPersonStatus" on null in D:\xampp\htdocs\wealth-choice\app\data\index2.php on line 235
+[25-Jan-2024 16:50:54 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32
+[25-Jan-2024 17:10:29 Asia/Calcutta] PHP Warning:  Undefined array key "LeadPriorityLevel" in D:\xampp\htdocs\wealth-choice\acm\SysModules\CRUD_Modules\Select.php on line 32

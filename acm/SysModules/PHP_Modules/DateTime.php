@@ -23,32 +23,29 @@ DEFINE("CURRENT_TIME", date('h:i:s A'));
 //function get minutes from two time
 function GetMinutes($time2, $time1)
 {
-    if (strtotime($time1) > strtotime($time2)) {
+    $time1 = strtotime($time1);
+    $time2 = strtotime($time2);
+
+    if ($time1 > $time2) {
         list($time1, $time2) = array($time2, $time1);
+        $prefix = "over";
+    } else {
+        $prefix = "left";
     }
 
-    $diff_seconds = strtotime($time2) - strtotime($time1);
+    $diff_seconds = $time2 - $time1;
     $diff_minutes = round($diff_seconds / 60);
 
-    // Example value
     $hours = floor($diff_minutes / 60);
     $remaining_minutes = $diff_minutes % 60;
 
     if ($diff_minutes == 0) {
-        $diff_minute = "Time Over";
-    } elseif ($diff_minutes > 0) {
-        $hours = abs($hours);
-        $remaining_minutes = abs($remaining_minutes);
-
-        $diff_minute = $hours . " hr " . $remaining_minutes . " min over";
-    } elseif ($diff_minutes < 0) {
-        $diff_minute = $hours . " hr " . $remaining_minutes . " min left";
+        $diff_output = "Time Over";
+    } else {
+        $diff_output = abs($hours) . " hr " . abs($remaining_minutes) . " min " . $prefix;
     }
-
-    return $diff_minute;
+    return $diff_output;
 }
-
-
 //converts seconds into hours, minute and seconds
 function GetDurations($second)
 {

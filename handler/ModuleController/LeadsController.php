@@ -3,6 +3,7 @@
 //save leads 
 if (isset($_POST['CreateLeads'])) {
 
+
   $leads = [
     "LeadPersonFullname" => $_POST['LeadPersonFullname'],
     "LeadSalutations" => $_POST['LeadSalutations'],
@@ -135,7 +136,6 @@ if (isset($_POST['CreateLeads'])) {
     } else {
       $totalleadcounts = $_POST['bulkselect'];
     }
-
     $orderby = $_POST['sortedby'];
     $FETCH = _DB_COMMAND_("SELECT * FROM lead_uploads where LeadStatus='UPLOADED' ORDER BY leadsUploadId $orderby limit 0, $totalleadcounts", true);
     if ($FETCH != null) {
@@ -153,10 +153,32 @@ if (isset($_POST['CreateLeads'])) {
           "LeadPersonSource" => $leads->LeadsSource,
           "LeadPersonCreatedAt" => CURRENT_DATE_TIME,
           "LeadPersonLastUpdatedAt" => CURRENT_DATE_TIME,
+          "LeadType" => $leads->LeadType
         );
         $save = INSERT("leads", $data);
         $LeadMainId = FETCH("SELECT * FROM leads where LeadPersonPhoneNumber='" . $leads->LeadsPhone . "' ORDER BY LeadsId DESC limit 1", "LeadsId");
-
+        if ($leads->LeadType == "RESIDENTIAL") {
+          $Propertype = [
+            "LeadMainId" => $LeadMainId,
+            "LeadCreatedAt" => CURRENT_DATE_TIME,
+            "LeadUpdatedAt" => CURRENT_DATE_TIME,
+          ];
+          $SaveProperty = INSERT("residential_leads", $Propertype);
+        } elseif ($leads->LeadType == "COMMERCIAL") {
+          $Propertype = [
+            "LeadMainId" => $LeadMainId,
+            "LeadCreatedAt" => CURRENT_DATE_TIME,
+            "LeadUpdatedAt" => CURRENT_DATE_TIME,
+          ];
+          $SaveProperty = INSERT("commercial_leads", $Propertype);
+        } elseif ($leads->LeadType == "AGRICULTURE") {
+          $Propertype = [
+            "LeadMainId" => $LeadMainId,
+            "LeadCreatedAt" => CURRENT_DATE_TIME,
+            "LeadUpdatedAt" => CURRENT_DATE_TIME,
+          ];
+          $SaveProperty = INSERT("agriculture_leads", $Propertype);
+        }
         $LeadRequirements = array(
           "LeadMainId" => $LeadMainId,
           "LeadRequirementDetails" => $leads->LeadProjectsRef,
@@ -185,9 +207,32 @@ if (isset($_POST['CreateLeads'])) {
             "LeadPersonSource" => $leads->LeadsSource,
             "LeadPersonCreatedAt" => CURRENT_DATE_TIME,
             "LeadPersonLastUpdatedAt" => CURRENT_DATE_TIME,
+            "LeadUploadType" => $leads->LeadType,
           );
           $save = INSERT("leads", $data);
           $LeadMainId = FETCH("SELECT * FROM leads where LeadPersonPhoneNumber='" . $leads->LeadsPhone . "' ORDER BY LeadsId DESC limit 1", "LeadsId");
+          if ($leads->LeadType == "RESIDENTIAL") {
+            $Propertype = [
+              "LeadMainId" => $LeadMainId,
+              "LeadCreatedAt" => CURRENT_DATE_TIME,
+              "LeadUpdatedAt" => CURRENT_DATE_TIME,
+            ];
+            $SaveProperty = INSERT("residential_leads", $Propertype);
+          } elseif ($leads->LeadType == "COMMERCIAL") {
+            $Propertype = [
+              "LeadMainId" => $LeadMainId,
+              "LeadCreatedAt" => CURRENT_DATE_TIME,
+              "LeadUpdatedAt" => CURRENT_DATE_TIME,
+            ];
+            $SaveProperty = INSERT("commercial_leads", $Propertype);
+          } elseif ($leads->LeadType == "AGRICULTURE") {
+            $Propertype = [
+              "LeadMainId" => $LeadMainId,
+              "LeadCreatedAt" => CURRENT_DATE_TIME,
+              "LeadUpdatedAt" => CURRENT_DATE_TIME,
+            ];
+            $SaveProperty = INSERT("agriculture_leads", $Propertype);
+          }
 
           $LeadRequirements = array(
             "LeadMainId" => $LeadMainId,
@@ -202,19 +247,16 @@ if (isset($_POST['CreateLeads'])) {
       }
     }
   }
-
   RESPONSE($Save, "Leads Transferred Successfully", "Leads Not Transferred successfully!");
 
   //update leads 
 } elseif (isset($_POST['UpdateLeads'])) {
   $LeadsId = SECURE($_POST['UpdateLeads'], "d");
-
   if (LOGIN_UserType == "Admin") {
     $LeadPersonManagedBy = $_POST['LeadPersonManagedBy'];
   } else {
     $LeadPersonManagedBy = SECURE($_POST['ManagedBy'], "d");
   }
-
   $data = array(
     "LeadPersonFullname" => $_POST['LeadPersonFullname'],
     "LeadSalutations" => $_POST['LeadSalutations'],
@@ -230,8 +272,100 @@ if (isset($_POST['CreateLeads'])) {
   );
 
   $Update = UPDATE_DATA("leads", $data, "LeadsId='$LeadsId'");
-  RESPONSE($Update, "Leads Details are updated successfully!", "Unable to update leads details at the moment!");
+  $LeadType = FETCH("SELECT * FROM leads WHERE LeadsId='$LeadsId'", "LeadType");
+  // UPDATE AGRICULTURE LEAD
+  if ($LeadType == "AGRICULTURE") {
+    // echo implode(', ', $_POST['AgricultureAmities']);
+    $AmitiesValues = isset($_POST['AgricultureAmities']) ? (array)$_POST['AgricultureAmities'] : [];
+    $AmitiesCode = implode(',', $AmitiesValues);
+    $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
 
+    $AgricultureLeadDetails = [
+      "LeadPropertyArea" => $_POST['AgricultureAreaUnit'],
+      "LandType" => $_POST['AgricultureLandType'],
+      "LandPrice" => $_POST['AgricultureLandPrice'],
+      "PurchasePurpose" => $_POST['AgriculturePurchasePurpose'],
+      "Location" => $_POST['AgricultureLoaction'],
+      "Amities" => $Amities,
+      "RequiredPeriod" => $_POST['AgriculturePurchaseDate'],
+      "LeadCity" => $_POST['AgricultureCity'],
+      "LeadState" => $_POST['AgricultureState'],
+      "LeadPincode" => $_POST['AgriculturePincode'],
+      "LeadUpdatedAt" => CURRENT_DATE_TIME,
+    ];
+    $Update = UPDATE_DATA("agriculture_leads", $AgricultureLeadDetails, "LeadMainId='$LeadsId'");
+  } elseif ($LeadType == "COMMERCIAL") {
+
+    $AmitiesValues = isset($_POST['CommercialAmities']) ? $_POST['CommercialAmities'] : [];
+    $AmitiesCode = implode(',', $AmitiesValues);
+    $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+
+    //save commercial deatils
+    $Commercial = [
+      "LeadPropertyArea" => $_POST['CommercialPropertyArea'],
+      "NumberOfCabin" => $_POST['CommercialCabin'],
+      "NumberOfSiting" => $_POST['CommercialSiting'],
+      "FurnishedType" => $_POST['CommercialPropertyFurnished'],
+      "PurchasePurpose" => $_POST['CommercialPurchasePurpose'],
+      "LeadMinimumBudget" => $_POST['commercialminbudget'],
+      "LeadMaximumBudget" => $_POST['commercialmaxbudget'],
+      "RentDetails" => $_POST['CommercialRentDetails'],
+      "Reception" => $_POST['CommercialReception'],
+      "NightShift" => $_POST['CommercialNightShift'],
+      "Panetry" => $_POST['CommercialPanetry'],
+      "Location" => $_POST['CommercialLocation'],
+      "Amities" => $Amities,
+      "Washroom" => $_POST['CommercialWashroom'],
+      "RequiredPeriod" => $_POST['CommercialPurchaseDate'],
+      "LeadCity" => $_POST['commercialcity'],
+      "LeadState" => $_POST['commercialState'],
+      "LeadPincode" => $_POST['commercialpincode'],
+      "LeadUpdatedAt" => CURRENT_DATE_TIME,
+    ];
+    $Update = UPDATE_DATA("commercial_leads", $Commercial, "LeadMainId='$LeadsId'");
+  } elseif ($LeadType == "RESIDENTIAL") {
+    // amities
+    if ($_POST['ResidentialPropertyType'] == "PLOT") {
+      $AmitiesValues = isset($_POST['PlotAmities']) ? $_POST['PlotAmities'] : [];
+      $AmitiesCode = implode(',', $AmitiesValues);
+      $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+    } elseif ($_POST['ResidentialPropertyType'] == "FLAT") {
+      $AmitiesValues = isset($_POST['FlatAmities']) ? $_POST['FlatAmities'] : [];
+      $AmitiesCode = implode(',', $AmitiesValues);
+      $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+    } elseif ($_POST['ResidentialPropertyType'] == "VILLA") {
+      $AmitiesValues = isset($_POST['VillaAmities']) ? $_POST['VillaAmities'] : [];
+      $AmitiesCode = implode(',', $AmitiesValues);
+      $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+    } elseif ($_POST['ResidentialPropertyType'] == "KOTHI") {
+      $AmitiesValues = isset($_POST['KothiAmities']) ? $_POST['KothiAmities'] : [];
+      $AmitiesCode = implode(',', $AmitiesValues);
+      $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+    } elseif ($_POST['ResidentialPropertyType'] == "FARMHOUSE") {
+      $AmitiesValues = isset($_POST['FarmhouseAmities']) ? $_POST['FarmhouseAmities'] : [];
+      $AmitiesCode = implode(',', $AmitiesValues);
+      $Amities = preg_replace('/[^0-9,]/', '', $AmitiesCode);
+    }
+    $ResidentialDetails = [
+      "LeadPropertyType" => $_POST['ResidentialPropertyType'],
+      "LeadPropertyArea" => $_POST['PlotAreaUnit'],
+      "Lead_BHK" => $_POST['FlatBHK'],
+      "LeadPurchasePurpose" => $_POST['PlotPurchasePurpose'],
+      "LeadLocation" => $_POST['PlotLocation'],
+      "LeadMinimumBudget" => $_POST['PlotMinimumPrice'],
+      "LeadMaximumBudget" => $_POST['PlotMaximumPrice'],
+      "LeadRequiredPeriod" => $_POST['ResidentialPurchaseDate'],
+      "LeadAmities" => $Amities,
+      // "LeadHandleBy" => $_POST['ResidentialLeadPersonManagedBy'],
+      "LeadCity" => $_POST['ResidentialCity'],
+      "LeadState" => $_POST['ResidentialState'],
+      "LeadPincode" => $_POST['ResidentialPincode'],
+      "LeadUpdatedAt" => CURRENT_DATE_TIME,
+    ];
+
+    $Update = UPDATE_DATA("residential_leads", $ResidentialDetails, "LeadMainId='$LeadsId'");
+  }
+  RESPONSE($Update, "Leads Details are updated successfully!", "Unable to update leads details at the moment!");
   //add leads status
 } elseif (isset($_POST['AddLeadStatus'])) {
   unset($_SESSION['EMAIL_REMINDER_STATUS']);
@@ -293,7 +427,7 @@ if (isset($_POST['CreateLeads'])) {
     ];
     INSERT("lead_followup_durations", $lead_followup_durations);
   }
-  RESPONSE($Save, "Leads Status & Follow Up Details are saved successfully!", "Unable to save lead status & follow up details at the moment!");
+  RESPONSE($Save, "Leads Status & Follow Up Details are saved successfully!", "Unable to save lead status & follow up details at the moment!", APP_URL . "/leads/index.php");
 
   //update reminder
 } elseif (isset($_POST['UpdateFollowUp'])) {

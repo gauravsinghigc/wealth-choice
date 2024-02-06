@@ -29,7 +29,37 @@ function CONFIG_VALUES($CONFIG_GROUP_NAME, $default = null)
         echo "<option value='Null'>No Data Found!</option>";
     }
 }
-
+//function get config valaus as option for checkbox input
+function CHECKBOX_CONFIG_VALUES($CONFIG_GROUP_NAME, $default = null, $name)
+{
+    $leadStages = _DB_COMMAND_(CONFIG_DATA_SQL($CONFIG_GROUP_NAME), true);
+    if ($leadStages != null) {
+        foreach ($leadStages as $lstages) {
+            if (is_array($default) && in_array($lstages->ConfigValueId, $default)) {
+                $checked = "checked";
+            } elseif (!is_array($default) && $lstages->ConfigValueId == $default) {
+                $checked = "checked";
+            } else {
+                $checked = "";
+            }
+            echo '<label class="btn btn-default m-1"> <input type="checkbox" ' . $checked . ' value="' . $lstages->ConfigValueId . '" name="' . $name . '[]"> ' .  $lstages->ConfigValueDetails . '</label>';
+        }
+    } else {
+        echo "<option value='Null'>No Data Found!</option>";
+    }
+}
+//function get config valaus as option for select input
+function CONFIG_VALUES_DEATILS($CONFIG_GROUP_NAME, $default = null)
+{
+    $leadStages = _DB_COMMAND_(CONFIG_DATA_SQL($CONFIG_GROUP_NAME), true);
+    if ($leadStages != null) {
+        foreach ($leadStages as $lstages) {
+            if ($lstages->ConfigValueDetails == $default) {
+                echo $lstages->ConfigValueDetails;
+            }
+        }
+    }
+}
 
 //get CURRENT SMTP configuration
 /**

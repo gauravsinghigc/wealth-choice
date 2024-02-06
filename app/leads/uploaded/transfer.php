@@ -5,7 +5,7 @@ require $Dir . '/handler/AuthController/AuthAccessController.php';
 
 
 //pagevariables
-$PageName = "All Transfer";
+$PageName = "All Transfer Leads";
 $PageDescription = "Manage all customers";
 if (isset($_GET['selected_leads'])) {
   $SelectedLeads = array_push($_SESSION['SELECTED_LEADS'], $_GET['selected_leads']);
@@ -34,15 +34,11 @@ if (isset($_GET['selected_leads'])) {
 <body class="hold-transition sidebar-mini">
   <div class="wrapper">
     <?php
-
     include $Dir . "/include/app/Header.php";
     include $Dir . "/include/sidebar/get-side-menus.php";
     include $Dir . "/include/app/Loader.php"; ?>
-
-
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
@@ -55,7 +51,6 @@ if (isset($_GET['selected_leads'])) {
                       <h3 class='app-heading'>Transfer Leads</h3>
                     </div>
                   </div>
-
                   <div class="row">
                     <div class="col-md-4">
                       <form action="<?php echo CONTROLLER; ?>" enctype="multipart/form-data" method="POST">
@@ -91,6 +86,7 @@ if (isset($_GET['selected_leads'])) {
                           <div class="col-md-6 form-group">
                             <label>Lead Stage </label>
                             <select class="form-control " name="LeadPersonStatus">
+
                               <?php CONFIG_VALUES("LEAD_STAGES"); ?>
                             </select>
                           </div>
@@ -193,12 +189,10 @@ if (isset($_GET['selected_leads'])) {
                         <div class='row'>
                           <div class='col-md-12 text-right'>
                             <button name='continue' class='btn btn-sm btn-success'><i class='fa fa-check'></i> Save Selected</button>
-
                           </div>
                         </div>
                         <?php
                         $listcounts = DEFAULT_RECORD_LISTING;
-
                         // Get current page number
                         if (isset($_GET["view_page"])) {
                           $page = $_GET["view_page"];
@@ -209,7 +203,6 @@ if (isset($_GET['selected_leads'])) {
                         $next_page = ($page + 1);
                         $previous_page = ($page - 1);
                         $NetPages = round($TotalItems / $listcounts + 0.5);
-
                         if (isset($_GET['LeadsName'])) {
                           $LeadsName = $_GET['LeadsName'];
                           $LeadsPhone = $_GET['LeadsPhone'];
@@ -231,7 +224,6 @@ if (isset($_GET['selected_leads'])) {
                           } else {
                             $Sno = $Sno;
                           }
-
                           foreach ($Leads as $Data) {
                             $Sno++;
                             if (isset($_GET['continue']) && isset($_GET['selected_leads'])) {
@@ -261,7 +253,6 @@ if (isset($_GET['selected_leads'])) {
                         <?php }
                         } ?>
                       </form>
-
                       <div class="row">
                         <div class="col-md-12 flex-s-b mt-2 mb-1">
                           <div class="">
@@ -301,7 +292,6 @@ if (isset($_GET['selected_leads'])) {
         </div>
       </section>
     </div>
-
     <?php
     include $Dir . "/include/app/Footer.php"; ?>
   </div>
@@ -317,7 +307,6 @@ if (isset($_GET['selected_leads'])) {
     }
   </Script>
   <?php include $Dir . "/assets/FooterFiles.php"; ?>
-
 </body>
 
 </html>
