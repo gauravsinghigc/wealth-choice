@@ -561,6 +561,7 @@ $AllJunkLeadsYesterday = TOTAL("SELECT LeadsId FROM leads where leadPersonStatus
           NoData("No Follow ups for Today!");
         }
         ?>
+        
       </ul>
     </div>
     <a href="<?php echo APP_URL; ?>/data/data_lead.php?today_followups=true" class="btn btn-md btn-primary pull-right mt-2">
