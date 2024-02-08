@@ -112,6 +112,8 @@
 
           </div>
           <div class="col-md-12 text-right">
+            <input type="text" hidden id="urlInput" name="currentUrl" value="" class="form-control">
+
             <button type="submit" name="AddLeadStatus" class="btn btn-md btn-success">Add Status</button>
             <a href="index.php" onclick="Databar('AddFollowUps')" class="btn btn-md btn-default mt-3">cancel</a>
           </div>
@@ -146,4 +148,6 @@
     <?php }
     } ?>
   }
+  let currenturl = window.location.href;
+  document.getElementById("urlInput").value = currenturl;
 </script>

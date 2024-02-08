@@ -114,9 +114,9 @@ if (isset($_GET['type'])) {
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="flex-s-b mb-4">
+                      <div class="flex-s-b align-items-center mb-4 shadow-sm p-2 data-heading">
                         <div class="flex-s-b align-items-center">
-                          <h3 class="bold m-1">
+                          <h3 class="bold m-1 text-light">
                             <?php echo $ListHeading; ?>
                           </h3>
                         </div>
@@ -127,9 +127,7 @@ if (isset($_GET['type'])) {
                             <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-flag text-warning" aria-hidden="true"></i> LOW</span>
                             <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-comments text-info" aria-hidden="true"></i> Add Feedback</span><br>
                           </div>
-                          <div class="mt-2">
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-circle fs-10 text-gray" aria-hidden="true"></i> Total Data <b><?php echo TOTAL("SELECT DataId FROM data GROUP BY DataId"); ?></b></span>
-                          </div>
+
                         </div>
                       </div>
                     </div>
@@ -178,13 +176,17 @@ if (isset($_GET['type'])) {
                           <select name="DataPersonStatus" onchange="form.submit()" id="" class="w-100 custom-option form-control">
                             <option value="">Select Status</option>
                             <?php
-                            if ($_GET["DataPersonStatus"] == "FRESH DATA") {
-                              $selected = "selected";
+                            if (isset($_GET['DataPersonStatus'])) {
+                              if ($_GET["DataPersonStatus"] == "FRESH DATA") {
+                                $selected = "selected";
+                              } else {
+                                $selected = "";
+                              }
                             } else {
                               $selected = "";
                             } ?>
                             <option value="FRESH DATA" <?php echo $selected; ?>>FRESH DATA</option>
-                            <?php CONFIG_VALUES("LEAD_STAGES", $_GET["DataPersonStatus"]); ?>
+                            <?php CONFIG_VALUES("LEAD_STAGES", IfRequested("GET", "DataPersonStatus", "", false)); ?>
 
                           </select>
                         </div>
@@ -203,8 +205,12 @@ if (isset($_GET['type'])) {
                               <?php
                               $Users = _DB_COMMAND_("SELECT * FROM users ORDER BY UserFullName ASC", true);
                               foreach ($Users as $User) {
-                                if ($User->UserId == $_GET['DataManagedBy']) {
-                                  $selected = "selected";
+                                if (isset($_GET['DataManagedBy'])) {
+                                  if ($User->UserId == $_GET['DataManagedBy']) {
+                                    $selected = "selected";
+                                  } else {
+                                    $selected = "";
+                                  }
                                 } else {
                                   $selected = "";
                                 }
@@ -217,7 +223,7 @@ if (isset($_GET['type'])) {
                           <?php } ?>
                         </div>
                         <div class="w-pr-12 text-center">
-                          <span class="btn btn-xs btn-warning w-100">More Filter</span>
+                          <!-- <span class="btn btn-xs btn-warning w-100">More Filter</span> -->
                         </div>
 
                       </form>
@@ -274,6 +280,7 @@ if (isset($_GET['type'])) {
                     $next_page = ($page + 1);
                     $previous_page = ($page - 1);
                     $NetPages = round(($TotalItems / $listcounts) + 0.5);
+                    // echo $LeadSql;
                     ?>
                     <?php
                     //$GetLeads = _DB_COMMAND_($LeadSql . " LIMIT $start, $listcounts", true); 
@@ -297,19 +304,21 @@ if (isset($_GET['type'])) {
   </div>
   <script>
     $(document).ready(function() {
+      let current_url = window.location.href;
       $.ajax({
         url: "FetchAllData.php",
         type: "POST",
         data: {
-          view_page: "<?php echo $page; ?>",
           Lead_Sql: "<?php echo $LeadSql; ?>",
           TotalLeads: "<?php echo $TotalItems; ?>",
           ListCount: "<?php echo $listcounts; ?>",
+          view_page: "<?php echo $page; ?>",
+          CurrentUrl: current_url,
         },
         success: function(data) {
           $('#lead-content').html(data);
         }
-      })
+      });
     });
   </script>
   <script>

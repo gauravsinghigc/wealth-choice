@@ -168,10 +168,15 @@ if (isset($_POST['UpdateDataRequirements'])) {
         $LeadPersonManagedBy = SECURE($_POST['ManagedBy'], "d");
     }
     $PersonStatus = $_POST['LeadPersonStatus'];
-    if ($PersonStatus == "Junk" || $PersonStatus == "Ringing" || $PersonStatus == "FRESH DATA") {
-        $DataType = "DATA";
+    $check = CHECK("SELECT * FROM data WHERE DataId='$LeadsId' and DataType='DATA'");
+    if ($check) {
+        if ($PersonStatus == "Junk" || $PersonStatus == "Ringing" || $PersonStatus == "FRESH DATA") {
+            $DataType = "DATA";
+        } else {
+            $DataType = "LEAD";
+        }
     } else {
-        $DataType = "DATA_LEAD";
+        $DataType = "LEADssssss";
     }
     $data = array(
         "DataPersonFullname" => $_POST['LeadPersonFullname'],
@@ -196,14 +201,18 @@ if (isset($_POST['UpdateDataRequirements'])) {
     //add leads status
 } elseif (isset($_POST['AddDataStatus'])) {
     unset($_SESSION['EMAIL_REMINDER_STATUS']);
+
+    if (isset($_POST['currentUrl'])) {
+        $Url = $_POST['currentUrl'];
+    } else {
+        $Url = APP_URL . "/data/index.php";
+    }
     $LeadFollowMainId = SECURE($_POST['DataFollowMainId'], "d");
     if ($_POST['LeadFollowStatus'] == "FRESH DATA") {
         $LeadFollowStatus = "FRESH DATA";
     } else {
         $LeadFollowStatus = FETCH("SELECT * FROM config_values where config_values.ConfigValueId='" . $_POST['LeadFollowStatus'] . "'", "ConfigValueDetails");
     }
-    // echo $LeadFollowStatus;
-    // die;
     $LeadFollowCurrentStatus = $_POST['LeadFollowCurrentStatus'];
     $LeadPriorityLevel = $_POST['LeadPriorityLevel'];
     $LeadPersonSubStatus = $_POST['LeadFollowCurrentStatus'];
@@ -236,8 +245,13 @@ if (isset($_POST['UpdateDataRequirements'])) {
     );
     $Update = UPDATE("UPDATE data_lead_followups SET DataFollowUpRemindStatus='INACTIVE' where DataFollowMainId='$LeadFollowMainId'");
     $Save = INSERT("data_lead_followups", $data);
-    if ($LeadFollowStatus == "Junk" || $LeadFollowStatus == "Ringing" || $LeadFollowStatus == "FRESH DATA") {
-        $DataType = "DATA";
+    $check = CHECK("SELECT * FROM data WHERE DataId='$LeadFollowMainId' and DataType='DATA'");
+    if ($check) {
+        if ($PersonStatus == "Junk" || $PersonStatus == "Ringing" || $PersonStatus == "FRESH DATA" || $PersonStatus == "Fresh") {
+            $DataType = "DATA";
+        } else {
+            $DataType = "LEAD";
+        }
     } else {
         $DataType = "LEAD";
     }
@@ -263,7 +277,7 @@ if (isset($_POST['UpdateDataRequirements'])) {
         ];
         INSERT("data_lead_followup_durations", $lead_followup_durations);
     }
-    RESPONSE($Save, "Data Status & Follow Up Details are saved successfully!", "Unable to save Data status & follow up details at the moment!", APP_URL . "/data/index.php");
+    RESPONSE($Save, "Data Status & Follow Up Details are saved successfully!", "Unable to save Data status & follow up details at the moment!", $Url);
 
     //update reminder
 } elseif (isset($_POST['UpdateDataFollowUp'])) {

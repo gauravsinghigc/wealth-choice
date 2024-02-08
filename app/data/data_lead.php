@@ -114,9 +114,9 @@ if (isset($_GET['type'])) {
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="flex-s-b mb-4">
-                                                <div class="flex-s-b align-items-center">
-                                                    <h3 class="bold m-1">
+                                            <div class="flex-s-b mb-4 shadow-sm p-2 data-heading align-items-center">
+                                                <div class="flex-s-b align-items-center ">
+                                                    <h3 class="bold m-1 text-light">
                                                         <?php echo $ListHeading; ?>
                                                     </h3>
                                                 </div>
@@ -127,9 +127,7 @@ if (isset($_GET['type'])) {
                                                         <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-flag text-warning" aria-hidden="true"></i> LOW</span>
                                                         <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-comments text-info" aria-hidden="true"></i> Add Feedback</span><br>
                                                     </div>
-                                                    <div class="mt-2">
-                                                        <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-circle fs-10 text-gray" aria-hidden="true"></i> Total Data Lead <b><?php echo TOTAL("SELECT DataId FROM data WHERE DataType like '%LEAD%' GROUP BY DataId"); ?></b></span>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -185,7 +183,6 @@ if (isset($_GET['type'])) {
                                                         } ?>
                                                         <option value="FRESH DATA" <?php echo $selected; ?>>FRESH DATA</option>
                                                         <?php CONFIG_VALUES("LEAD_STAGES", $_GET["DataPersonStatus"]); ?>
-
                                                     </select>
                                                 </div>
                                                 <div class="w-pr-10 ">
@@ -194,7 +191,6 @@ if (isset($_GET['type'])) {
                                                 </div>
                                                 <div class="w-pr-10">
                                                     <input type="date" onchange="form.submit()" id="datechange" onclick="changeInputType()" name="DataCreatedAt" class="w-100 custom-input" placeholder="Created Date" value="<?php echo IfRequested("GET", "DataCreatedAt", "", false); ?>">
-
                                                 </div>
                                                 <div class="w-pr-13">
                                                     <?php if (LOGIN_UserType == "Admin" || LOGIN_UserType == "Digital") { ?>
@@ -217,9 +213,8 @@ if (isset($_GET['type'])) {
                                                     <?php } ?>
                                                 </div>
                                                 <div class="w-pr-12 text-center">
-                                                    <span class="btn btn-xs btn-warning w-100">More Filter</span>
+                                                    <!-- <span class="btn btn-xs btn-warning w-100">More Filter</span> -->
                                                 </div>
-
                                             </form>
                                             <hr class="m-0 p-0 new-hr">
                                         </div>
@@ -264,7 +259,6 @@ if (isset($_GET['type'])) {
                                     <div class="row">
                                         <?php
                                         $listcounts = 10;
-                                        // Get current page number
                                         if (isset($_GET["view_page"])) {
                                             $page = $_GET["view_page"];
                                         } else {
@@ -274,9 +268,6 @@ if (isset($_GET['type'])) {
                                         $next_page = ($page + 1);
                                         $previous_page = ($page - 1);
                                         $NetPages = round(($TotalItems / $listcounts) + 0.5);
-                                        ?>
-                                        <?php
-                                        //$GetLeads = _DB_COMMAND_($LeadSql . " LIMIT $start, $listcounts", true); 
                                         ?>
                                         <div class="col-md-12" id="lead-content">
                                             <center>
@@ -297,6 +288,7 @@ if (isset($_GET['type'])) {
     </div>
     <script>
         $(document).ready(function() {
+            let current_url = window.location.href;
             $.ajax({
                 url: "FetchAllData.php",
                 type: "POST",
@@ -305,6 +297,7 @@ if (isset($_GET['type'])) {
                     Lead_Sql: "<?php echo $LeadSql; ?>",
                     TotalLeads: "<?php echo $TotalItems; ?>",
                     ListCount: "<?php echo $listcounts; ?>",
+                    CurrentUrl: current_url,
                 },
                 success: function(data) {
                     $('#lead-content').html(data);

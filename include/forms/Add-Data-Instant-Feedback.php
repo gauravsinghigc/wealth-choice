@@ -106,6 +106,7 @@
                                     <input type="time" name="LeadFollowUpTime" value="<?php echo DATE("H:i", strtotime("+5 min")); ?>" class="form-control form-control-sm">
                                 </div>
                                 <div class="col-md-12">
+
                                     <label>Remind Note</label>
                                     <textarea class="form-control form-control-sm" id='remindnote_<?php echo $LeadsId; ?>' name="LeadFollowUpRemindNotes" rows="2"></textarea>
                                 </div>
@@ -113,7 +114,9 @@
                         </div>
 
                     </div>
+
                     <div class="col-md-12 text-right">
+                        <input type="text" hidden id="urlInput" name="currentUrl" value="<?php echo $currenturl; ?>" class="form-control">
                         <button type="submit" name="AddDataStatus" class="btn btn-md btn-success">Add Data Status</button>
                         <a href="#" onclick="Databar('Lead_Update_<?php echo $LeadsId; ?>')" class="btn btn-md btn-default mt-3">cancel</a>
                     </div>

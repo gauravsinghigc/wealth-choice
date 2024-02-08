@@ -38,6 +38,11 @@ if (isset($_GET['add_new_lead']) == "true") {
             // SAVE LEAD REQUIREMNET
             $ProjectId = _DB_COMMAND_("SELECT * FROM projects WHERE ProjectName like '%" . $_GET['project_name'] . "%'", true);
             $checkProject = CHECK("SELECT * FROM projects WHERE ProjectName like '%" . $_GET['project_name'] . "%'");
+            if (isset($_GET['purpose'])) {
+                $purpose = $_GET['purpose'];
+            } else {
+                $purpose = "";
+            }
             if ($checkProject == true) {
                 if ($ProjectId != null) {
                     $requirements = [
@@ -53,7 +58,7 @@ if (isset($_GET['add_new_lead']) == "true") {
                 $data = [
                     "LeadMainId" => $LeadsId,
                     "LeadPropertyArea" => $_GET['property_area'],
-                    "LeadPurchasePurpose" => $_GET['purpose'],
+                    "LeadPurchasePurpose" => $purpose,
                     "LeadLocation" => $_GET['address_locality'],
                     "LeadMinimumBudget" => $_GET['min_budget'],
                     "LeadMaximumBudget" => $_GET['max_budget'],
@@ -66,7 +71,7 @@ if (isset($_GET['add_new_lead']) == "true") {
                 $data = [
                     "LeadMainId" => $LeadsId,
                     "LeadPropertyArea" => $_GET['property_area'],
-                    "PurchasePurpose" => $_GET['purpose'],
+                    "PurchasePurpose" => $purpose,
                     "LeadMinimumBudget" => $_GET['min_budget'],
                     "LeadMaximumBudget" => $_GET['max_budget'],
                     "Location" => $_GET['address_locality'],
@@ -79,7 +84,7 @@ if (isset($_GET['add_new_lead']) == "true") {
                 $data = [
                     "LeadMainId" => $LeadsId,
                     "LeadPropertyArea" => $_GET['property_area'],
-                    "PurchasePurpose" => $_GET['purpose'],
+                    "PurchasePurpose" => $purpose,
                     "LandPrice" => $_GET['max_budget'],
                     "Location" => $_GET['address_locality'],
                     "LeadCreatedAt" => CURRENT_DATE_TIME,
@@ -91,7 +96,7 @@ if (isset($_GET['add_new_lead']) == "true") {
                 $data = [
                     "LeadMainId" => $LeadsId,
                     "LeadPropertyArea" => $_GET['property_area'],
-                    "LeadPurchasePurpose" => $_GET['purpose'],
+                    "LeadPurchasePurpose" => $purpose,
                     "LeadLocation" => $_GET['address_locality'],
                     "LeadMinimumBudget" => $_GET['min_budget'],
                     "LeadMaximumBudget" => $_GET['max_budget'],

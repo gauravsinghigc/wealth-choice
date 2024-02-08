@@ -1215,3 +1215,9 @@ border: none !important;
 .popup-btn:hover +.popup {
   visibility: visible  !important;
 }
+.lead-heading{
+  background-color:#0079a8 !important;
+}
+.data-heading{
+  background-color: #0F783F !important;
+}

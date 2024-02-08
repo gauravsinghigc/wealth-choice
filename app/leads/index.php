@@ -81,22 +81,22 @@ if (isset($_GET['type'])) {
                       } else {
                         $ListHeading = "All Leads";
                       } ?>
-                      <div class="flex-s-b mb-4">
+                      <div class="flex-s-b mb-4 shadow-sm p-2 lead-heading">
                         <div class="flex-s-b align-items-center">
-                          <h3 class="bold m-1">
+                          <h3 class="bold m-1 text-light">
                             <?php echo $ListHeading; ?>
                           </h3>
                         </div>
                         <div class="text-right">
                           <div>
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-flag text-success" aria-hidden="true"></i> HIGH</span>
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-flag text-info" aria-hidden="true"></i> MEDIUM</span>
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-flag text-warning" aria-hidden="true"></i> LOW</span>
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-comments text-info" aria-hidden="true"></i> Add Feedback</span><br>
+                            <span class=" btn btn-xs btn-light cursor-default mr-1"><i class="fa fa-flag text-success" aria-hidden="true"></i> HIGH</span>
+                            <span class=" btn btn-xs btn-light cursor-default mr-1"><i class="fa fa-flag text-info" aria-hidden="true"></i> MEDIUM</span>
+                            <span class=" btn btn-xs btn-light cursor-default mr-1"><i class="fa fa-flag text-warning" aria-hidden="true"></i> LOW</span>
+                            <span class=" btn btn-xs btn-light cursor-default mr-1"><i class="fa fa-comments text-info" aria-hidden="true"></i> Add Feedback</span><br>
                           </div>
                           <div class="mt-2">
                             <a href="add.php" class=" btn btn-xs btn-danger mr-1"><i class="fa fa-plus fs-10 text-white" aria-hidden="true"></i> Add New Lead </b></a>
-                            <span class=" btn btn-xs btn-default cursor-default mr-1"><i class="fa fa-circle fs-10 text-gray" aria-hidden="true"></i> Total Lead <b><?php echo TOTAL("SELECT LeadsId FROM leads GROUP BY LeadsId"); ?></b></span>
+                            <span class=" btn btn-xs btn-light cursor-default mr-1"><i class="fa fa-circle fs-10 text-gray" aria-hidden="true"></i> Total Lead <b><?php echo TOTAL("SELECT LeadsId FROM leads GROUP BY LeadsId"); ?></b></span>
                           </div>
                         </div>
                       </div>
@@ -162,7 +162,7 @@ if (isset($_GET['type'])) {
                         <div class="w-pr-13 ">
                           <select name="LeadType" onchange="form.submit()" id="" class="w-100 custom-option form-control fs-12">
                             <option value="">Property Type</option>
-                            <?php echo InputOptions(["RESIDENTIAL", "COMMERCIAL", "AGRICULTURE"], IfRequested("GET", "LeadType", "", false)); ?>
+                            <?php echo InputOptions(["LEAD","RESIDENTIAL", "COMMERCIAL", "AGRICULTURE"], IfRequested("GET", "LeadType", "", false)); ?>
                           </select>
                         </div>
                         <div class="w-pr-12">
@@ -190,7 +190,7 @@ if (isset($_GET['type'])) {
                           <?php } ?>
                         </div>
                         <div class="w-pr-15 text-center ">
-                          <span class="btn btn-xs btn-warning w-75">More Filter</span>
+                          <!-- <span class="btn btn-xs btn-warning w-75">More Filter</span> -->
                         </div>
 
                       </form>
@@ -270,6 +270,7 @@ if (isset($_GET['type'])) {
   </div>
   <script>
     $(document).ready(function() {
+      let current_url = window.location.href;
       $.ajax({
         url: "FetchAllLead.php",
         type: "POST",
@@ -278,6 +279,7 @@ if (isset($_GET['type'])) {
           Lead_Sql: "<?php echo $LeadSql; ?>",
           TotalLeads: "<?php echo $TotalItems; ?>",
           ListCount: "<?php echo $listcounts; ?>",
+          CurrentUrl: current_url,
         },
         success: function(data) {
           $('#lead-new-content').html(data);

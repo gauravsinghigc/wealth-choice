@@ -255,7 +255,13 @@ $AllJunkLeadsYesterday = TOTAL("SELECT LeadsId FROM leads  where LeadPersonManag
     </a>
   </div>
 </div>
-<div class="row">
+<div class="row m-1">
+  <div class="col-md-12  app-sub-heading">
+    <span class="btn btn-primary bold" id="lead_activity"> <i class="fa fa-eye"></i> See Lead Activity</span>
+    <span class="btn btn-default bold" id="data_activity"> <i class="fa fa-eye"></i> See Data Activity</span>
+  </div>
+</div>
+<div class="row" id="lead_active_box">
   <div class="col-md-6">
     <a href="<?php echo APP_URL; ?>/leads/?today_followups=true">
       <h5 class="app-heading">Today's FollowUps <span class="bg-white p-1 rounded pull-right" style="font-size:0.9rem;">
@@ -290,8 +296,8 @@ $AllJunkLeadsYesterday = TOTAL("SELECT LeadsId FROM leads  where LeadPersonManag
 
   <div class="col-md-6">
     <h5 class="app-heading">Current Activity</h5>
-    <div class="data-display">
-      <ul class="calling-list pt-0 height-limit">
+    <div class="data-display ">
+      <ul class="calling-list pt-0 ">
         <?php
         $LOGIN_UserViewId = LOGIN_UserId;
         $fetclFollowUps = _DB_COMMAND_("SELECT LeadFollowUpRemindStatus, LeadFollowUpId, LeadFollowUpHandleBy, LeadFollowUpDescriptions, LeadFollowCurrentStatus, LeadFollowStatus, LeadFollowMainId, LeadFollowUpUpdatedAt, LeadFollowUpTime, LeadFollowUpDate FROM lead_followups where LeadFollowUpHandleBy='$LOGIN_UserViewId' ORDER BY LeadFollowUpId DESC limit 0, 10", true);
@@ -306,3 +312,67 @@ $AllJunkLeadsYesterday = TOTAL("SELECT LeadsId FROM leads  where LeadPersonManag
     </div>
   </div>
 </div>
+<div class="row hidden" id="data_active_box">
+  <div class="col-md-6">
+    <a href="<?php echo APP_URL; ?>/data/data_lead.php?today_followups=true">
+      <h5 class="app-heading flex-s-b">Today's Data Follow Ups
+        <span class="bg-white p-1 rounded pull-right" style="font-size:0.9rem;">
+          <?php echo TOTAL("SELECT DataFollowUpDate FROM data_lead_followups where DATE(DataFollowUpDate)='" . date('Y-m-d') . "' and DataFollowUpRemindStatus='ACTIVE' ORDER BY DataFollowUpId DESC"); ?> Follow Ups
+        </span>
+      </h5>
+
+    </a>
+    <div class="data-display">
+      <ul class="calling-list">
+        <?php
+        $fetclFollowUps = _DB_COMMAND_("SELECT DataFollowUpRemindStatus, DataFollowUpId, DataFollowUpHandleBy, DataFollowUpDescriptions, DataFollowCurrentStatus, DataFollowStatus, DataFollowMainId, DataFollowUpUpdatedAt, DataFollowUpTime, DataFollowUpDate FROM data_lead_followups where DATE(DataFollowUpDate)='" . date('Y-m-d') . "' and DataFollowUpRemindStatus='ACTIVE' ORDER BY DataFollowUpId DESC", true);
+        if ($fetclFollowUps != null) {
+          foreach ($fetclFollowUps as $F) {
+            include __DIR__ . "/common/data_follow-ups.php";
+          }
+        } else {
+          NoData("No Follow ups for Today!");
+        }
+        ?>
+
+      </ul>
+    </div>
+    <a href="<?php echo APP_URL; ?>/data/data_lead.php?today_followups=true" class="btn btn-md btn-primary pull-right mt-2">
+      View All Today's Data Follow Ups <i class='fa fa-angle-right'></i>
+    </a>
+  </div>
+  <div class="col-md-6">
+    <h5 class="app-heading">Data Current Activity</h5>
+    <div class="data-display">
+      <ul class="calling-list pt-0">
+        <?php
+        $fetclFollowUps = _DB_COMMAND_("SELECT DataFollowUpRemindStatus, DataFollowUpId, DataFollowUpHandleBy, DataFollowUpDescriptions, DataFollowCurrentStatus, DataFollowStatus, DataFollowMainId, DataFollowUpUpdatedAt, DataFollowUpTime, DataFollowUpDate FROM data_lead_followups ORDER BY DataFollowUpId DESC limit 0, 10", true);
+        if ($fetclFollowUps != null) {
+          foreach ($fetclFollowUps as $F) {
+            include __DIR__ . "/common/data_activity.php";
+          }
+        } else {
+          NoData("No Activity History Found!");
+        } ?>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleActivity(boxToShow, boxToHide, activeButton, inactiveButton) {
+    document.querySelector(boxToHide).classList.add("hidden");
+    document.querySelector(boxToShow).classList.remove("hidden");
+    document.querySelector(activeButton).classList.remove("btn-default");
+    document.querySelector(activeButton).classList.add("btn-primary");
+    document.querySelector(inactiveButton).classList.remove("btn-primary");
+    document.querySelector(inactiveButton).classList.add("btn-default");
+  }
+
+  document.querySelector("#lead_activity").addEventListener("click", function() {
+    toggleActivity("#lead_active_box", "#data_active_box", "#lead_activity", "#data_activity");
+  });
+
+  document.querySelector("#data_activity").addEventListener("click", function() {
+    toggleActivity("#data_active_box", "#lead_active_box", "#data_activity", "#lead_activity");
+  });
+</script>

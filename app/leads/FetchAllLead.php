@@ -14,6 +14,11 @@ if (DEVICE_TYPE == "Mobile") {
 } else {
     $flex = "flex-s-b";
 }
+if (isset($_POST['CurrentUrl'])) {
+    $currenturl = $_POST['CurrentUrl'];
+} else {
+    $currenturl = "";
+}
 $GetLeads = _DB_COMMAND_($Lead_Sql . "  LIMIT $start, $listcounts", true);
 
 if ($GetLeads == null) { ?>

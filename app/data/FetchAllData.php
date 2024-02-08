@@ -2,6 +2,7 @@
 $Dir = "../..";
 require $Dir . '/acm/SysFileAutoLoader.php';
 require $Dir . '/handler/AuthController/AuthAccessController.php';
+
 $Lead_Sql = $_POST['Lead_Sql'];
 $TotalItems = $_POST['TotalLeads'];
 $listcounts = $_POST['ListCount'];
@@ -9,6 +10,11 @@ $page = $_POST['view_page'];
 $start = ($page - 1) * $listcounts;
 $next_page = ($page + 1);
 $previous_page = ($page - 1);
+if (isset($_POST['CurrentUrl'])) {
+    $currenturl = $_POST['CurrentUrl'];
+} else {
+    $currenturl = "";
+}
 // $Getleads = _DB_COMMAND_("SELECT * FROM leads WHERE CompanyID='" . CompanyId . "' ORDER BY LeadsId DESC LIMIT $start, $listcounts", true);
 $GetLeads = _DB_COMMAND_($Lead_Sql . "  LIMIT $start, $listcounts", true);
 
@@ -134,7 +140,7 @@ if ($GetLeads == null) { ?>
                                             <span class="text-gray"><i class='fa fa-phone text-success h6'></i> <b><?php echo TOTAL("SELECT DataFollowUpId FROM data_lead_followups WHERE DataFollowMainId='$LeadsId'"); ?></b> Calls </span>
                                         </span>
                                         <span class="w-pr-50">
-                                            <span class="text-gray"> <i class='fa fa-refresh text-danger h6'></i> <b><?php echo TOTAL("SELECT DataFollowStatus FROM data_lead_followups where DataFollowMainId='$LeadsId' and DataFollowStatus like '%Follow%'"); ?></b> Follow ups  <b></b></span>
+                                            <span class="text-gray"> <i class='fa fa-refresh text-danger h6'></i> <b><?php echo TOTAL("SELECT DataFollowStatus FROM data_lead_followups where DataFollowMainId='$LeadsId' and DataFollowStatus like '%Follow%'"); ?></b> Follow ups <b></b></span>
                                         </span>
                                     </div>
                                     <div class="w-100">

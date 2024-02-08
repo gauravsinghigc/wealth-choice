@@ -370,7 +370,11 @@ if (isset($_POST['CreateLeads'])) {
 } elseif (isset($_POST['AddLeadStatus'])) {
   unset($_SESSION['EMAIL_REMINDER_STATUS']);
   $LeadFollowMainId = SECURE($_POST['LeadFollowMainId'], "d");
-
+  if (isset($_POST['currentUrl'])) {
+    $Url = $_POST['currentUrl'];
+  } else {
+    $Url = APP_URL . "/data/index.php";
+  }
   $LeadFollowStatus = FETCH("SELECT * FROM config_values where config_values.ConfigValueId='" . $_POST['LeadFollowStatus'] . "'", "ConfigValueDetails");
   $LeadFollowCurrentStatus = $_POST['LeadFollowCurrentStatus'];
   $LeadPriorityLevel = $_POST['LeadPriorityLevel'];
@@ -427,7 +431,7 @@ if (isset($_POST['CreateLeads'])) {
     ];
     INSERT("lead_followup_durations", $lead_followup_durations);
   }
-  RESPONSE($Save, "Leads Status & Follow Up Details are saved successfully!", "Unable to save lead status & follow up details at the moment!", APP_URL . "/leads/index.php");
+  RESPONSE($Save, "Leads Status & Follow Up Details are saved successfully!", "Unable to save lead status & follow up details at the moment!", $Url);
 
   //update reminder
 } elseif (isset($_POST['UpdateFollowUp'])) {
