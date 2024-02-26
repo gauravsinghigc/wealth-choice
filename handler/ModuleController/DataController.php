@@ -42,11 +42,13 @@ if (isset($_POST['UpdateDataRequirements'])) {
     if ($FileName[1] == "csv") {
         $handle = fopen($_FILES['UploadedFile']['tmp_name'], "r");
         $flag = true;
+
         while ($data = fgetcsv($handle)) {
             if ($flag) {
                 $flag = false;
                 continue;
             }
+
             if (array(null) !== $data) {
                 $LeadsName = $data[0];
                 $LeadsEmail = $data[2];
@@ -56,27 +58,31 @@ if (isset($_POST['UpdateDataRequirements'])) {
                 $LeadsProfession = $data[5];
                 $LeadsSource = $data[6];
 
-                $data = array(
-                    "DataName" => $LeadsName,
-                    "DataUploadBy" => LOGIN_UserId,
-                    "DataUploadedfor" => $LeadUploadedFor,
-                    "DataEmail" => $LeadsEmail,
-                    "DataPhone" => $LeadsPhone,
-                    "DataAddress" => $LeadsAddress,
-                    "DataCity" => $LeadsCity,
-                    "DataProfession" => $LeadsProfession,
-                    "DataSource" => $LeadsSource,
-                    "UploadedOn" => CURRENT_DATE_TIME,
-                    "DataStatus" => "UPLOADED",
-                    "DataProjectsRef" => $_POST['LeadProjectsRef'],
-                    "LeadType" => $LeadType
-                );
-                $Save = INSERT("data_lead_uploads", $data);
+                // Check if the entry already exists in the database
+                if (!entryExists($LeadsPhone)) {
+                    $data = array(
+                        "DataName" => $LeadsName,
+                        "DataUploadBy" => LOGIN_UserId,
+                        "DataUploadedfor" => $LeadUploadedFor,
+                        "DataEmail" => $LeadsEmail,
+                        "DataPhone" => $LeadsPhone,
+                        "DataAddress" => $LeadsAddress,
+                        "DataCity" => $LeadsCity,
+                        "DataProfession" => $LeadsProfession,
+                        "DataSource" => $LeadsSource,
+                        "UploadedOn" => CURRENT_DATE_TIME,
+                        "DataStatus" => "UPLOADED",
+                        "DataProjectsRef" => $_POST['LeadProjectsRef'],
+                        "LeadType" => $LeadType
+                    );
+                    $Save = INSERT("data_lead_uploads", $data);
+                }
             }
         }
         fclose($handle);
     }
     RESPONSE($Save, "Data Uploaded successfully!", "Unable to upload Data at the moment!");
+
     //lead transfer
 } elseif (isset($_POST['TransferData'])) {
     $LeadPersonManagedBy = $_POST['LeadPersonManagedBy'];
@@ -176,7 +182,7 @@ if (isset($_POST['UpdateDataRequirements'])) {
             $DataType = "LEAD";
         }
     } else {
-        $DataType = "LEADssssss";
+        $DataType = "LEAD";
     }
     $data = array(
         "DataPersonFullname" => $_POST['LeadPersonFullname'],

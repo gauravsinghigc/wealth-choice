@@ -101,25 +101,27 @@ if (isset($_POST['CreateLeads'])) {
         $LeadsCity = $data[4];
         $LeadsProfession = $data[5];
         $LeadsSource = $data[6];
-
-        $data = array(
-          "LeadsName" => $LeadsName,
-          "LeadsUploadBy" => LOGIN_UserId,
-          "LeadsUploadedfor" => $LeadUploadedFor,
-          "LeadsEmail" => $LeadsEmail,
-          "LeadsPhone" => $LeadsPhone,
-          "LeadsAddress" => $LeadsAddress,
-          "LeadsCity" => $LeadsCity,
-          "LeadsProfession" => $LeadsProfession,
-          "LeadsSource" => $LeadsSource,
-          "UploadedOn" => CURRENT_DATE_TIME,
-          "LeadStatus" => "UPLOADED",
-          "LeadProjectsRef" => $_POST['LeadProjectsRef'],
-          "LeadType" => $LeadType
-        );
-        $Save = INSERT("lead_uploads", $data);
+        if (!entryExistsLeads($LeadsPhone)) {
+          $data = array(
+            "LeadsName" => $LeadsName,
+            "LeadsUploadBy" => LOGIN_UserId,
+            "LeadsUploadedfor" => $LeadUploadedFor,
+            "LeadsEmail" => $LeadsEmail,
+            "LeadsPhone" => $LeadsPhone,
+            "LeadsAddress" => $LeadsAddress,
+            "LeadsCity" => $LeadsCity,
+            "LeadsProfession" => $LeadsProfession,
+            "LeadsSource" => $LeadsSource,
+            "UploadedOn" => CURRENT_DATE_TIME,
+            "LeadStatus" => "UPLOADED",
+            "LeadProjectsRef" => $_POST['LeadProjectsRef'],
+            "LeadType" => $LeadType
+          );
+          $Save = INSERT("lead_uploads", $data);
+        }
       }
     }
+
     fclose($handle);
   }
   RESPONSE($Save, "Leads Uploaded successfully!", "Unable to upload leads at the moment!");

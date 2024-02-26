@@ -1,0 +1,6 @@
+[26-Feb-2024 16:09:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in D:\xampp\htdocs\wealth-choice\include\app\Header.php:15
+Stack trace:
+#0 D:\xampp\htdocs\wealth-choice\app\index.php(33): include()
+#1 {main}
+  thrown in D:\xampp\htdocs\wealth-choice\include\app\Header.php on line 15
+[26-Feb-2024 16:10:04 Asia/Calcutta] PHP Warning:  Undefined variable $Save in D:\xampp\htdocs\wealth-choice\handler\ModuleController\LeadsController.php on line 127

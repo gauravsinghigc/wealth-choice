@@ -90,3 +90,26 @@ function SAVE($tablename, array $INSERT, $die = false)
         return false;
     }
 }
+
+function entryExists($DataPhone)
+{
+    $query = "SELECT COUNT(DataPhone) AS count FROM data_lead_uploads WHERE DataPhone = '$DataPhone'";
+    $result = DBConnection->query($query);
+
+    // Get the count from the result
+    $count = $result->fetch_assoc()['count'];
+
+    // If the count is greater than 0, the entry exists
+    return $count > 0;
+}
+function entryExistsLeads($LeadsPhone)
+{
+    $query = "SELECT COUNT(LeadsPhone) AS count FROM lead_uploads WHERE LeadsPhone = '$LeadsPhone'";
+    $result = DBConnection->query($query);
+
+    // Get the count from the result
+    $count = $result->fetch_assoc()['count'];
+
+    // If the count is greater than 0, the entry exists
+    return $count > 0;
+}
